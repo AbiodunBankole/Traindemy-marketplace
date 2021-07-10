@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traindemy Pivot</title>
+
+    <!-- AOS animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+
+    <!--Bootstrap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- fontawesome kits -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- This is the header section -->
+    <Section id="header">
+
+        <div class="container-fluid">
+
+            <!-- Start of navigation bar -->
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="traindemy brand logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Solutions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Marketplace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Learning</a>
+                        </li>
+                    </ul>
+                    <button class="btn sign-btn">Sign in</button>
+                    <button class="btn custom-btn">Get Started</button>
+                </div>
+            </nav>
+            <!-- End of navigation bar -->
+
+
+            <div class="row">
+
+                <!-- start of hero section -->
+
+                <div class="col-lg-6 hero">
+
+                    <h1 data-aos="fade-right" data-aos-duration="2000" class="hero-title"><span
+                            class="training-text">Accelerate</span> your <span class="employee-text"></span>
+                        Engagement with the right tools.</h1>
+
+                    <p data-aos="fade-up" data-aos-duration="2000" class="hero-paragraph">Access a variety of solutions
+                        for your training, staff onboarding, assessment, offline events, webinars and more.
+                    </p>
+                    <button data-aos="fade-up" data-aos-duration="2000" class="btn getStart-btn btn-primary">Start your
+                        free trial</button>
+                    <button data-aos="fade-up" data-aos-duration="2000" class="btn getStart-watch-btn">Request a
+                        Demo</button>
+                </div>
+
+                <div class="col-lg-6 hero-images">
+                    <img data-aos="fade-up" data-aos-duration="2000" class="lady-img" tooltip="picture"
+                        src="images/lady-img.png" alt="the fine girl in the front page">
+                    <img class="hero-fpic" src="images/first-hero.png" alt="3 courses registered">
+                    <img data-aos="hero-spic" data-aos-duration="3000" class="hero-spic" src="images/sec-hero.png"
+                        alt="200 staff account">
+                    <img class="hero-thpic" src="images/th-hero.png" alt="copy icon">
+                    <img class="hero-fopic" src="images/forth-hero.png" alt="copy icon">
+                    <img class="hero-fifpic" src="images/fifth-hero.png" alt="copy icon">
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <img class="h-ln" src="images/hero-ln.svg" alt="svg line 1">
+        <img class="h-ln2" src="images/hero-n-ln.svg" alt="svg line 2">
+
+        <svg class="svg-bg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,0L120,37.3C240,75,480,149,720,165.3C960,181,1200,139,1320,117.3L1440,96L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+            </path>
+        </svg>
+    </Section>
+    <!-- End of header section -->
+
+
+    <!-- Start of trusted clients -->
+    <section data-aos="fade-up" data-aos-duration="2000" id="clients">
+
+        <h4 class="client-title">Trusted by our Clients</h4>
+
+        <img class="client-logo standage" src="images/standage-logo.png" alt="Google">
+        <img class="client-logo sormerset" src="images/sormerset.png" alt="Netflix">
+        <img class="client-logo spoof" src="images/spoof-logo.png" alt="Airbnb">
+        <img class="client-logo osc" src="images/osc-logo.png" alt="Amazon">
+        <img class="client-logo uaba" src="images/uaba-logo.png" alt="Facebook">
+    </section>
+    <!-- End of trusted clients -->
+
+
+    <!-- Start of features section -->
+    <section id="features">
+
+        <!-- First feature -->
+
+        <h3 data-aos="fade-up" data-aos-duration="2000" class="f-description">Discover how Traindemy is helping
+            businesses access technologies that allows them connect with customers and employees better.</h3>
+
+        <!-- End of First feature -->
+
+        
+
+        <!-- Second feature -->
+
+        <div class="s-feature row">
+            <div data-aos="flip-left" data-aos-duration="2000" class="col-lg-7 desc-container-2">
+
+                <h4 class="sf-description">The best schools and academies use our solutions.</h4>
+
+                <p class="p-desc">From school management portal, LMS, students assessment, summer camps to skills
+                    workshops and more, Traindemy makes every subscription worth it.</p>
+
+                <button class="btn feature-btn btn-primary">Get started now</button>
+
+
+            </div>
+
+            <img data-aos="zoom-in" data-aos-duration="2000" class="feature-img-one col-lg-2" src="images/Kaffy.png"
+                alt="first-image">
+            <!-- <img data-aos="zoom-in" data-aos-duration="2000" class="kaffy-badge"
+                    src="https://traindemy.com/assets/img/icons/verified-badge.svg" alt="the verification badge"> -->
+            <img data-aos="fade-down" data-aos-duration="2000" class="feature-img-two col-lg-2" src="images/Spoof.png"
+                alt="second-image">
+            <!-- <img data-aos="fade-down" data-aos-duration="2000" class="spoof-badge"
+                    src="https://traindemy.com/assets/img/icons/verified-badge.svg" alt="the verification badge"> -->
+            <img data-aos="fade-left" data-aos-duration="1000" class="feature-img-three col-lg-2"
+                src="images/Paintertainer.png" alt="third-image">
+            <!-- <img data-aos="fade-left" data-aos-duration="2000" class="paintertainer-badge"
+                    src="https://traindemy.com/assets/img/icons/verified-badge.svg" alt="the verification badge"> -->
+        </div>
+
+        <!-- End of Second feature -->
+
+    </section>
+    <!-- End of features section -->
+
+
+    <!-- Start of get started section -->
+    <section id="getStarted">
+
+        <div class="row">
+            <img class="col-lg-8 gs-img" src="images/woman.jpg" alt="the woman image">
+            <img class="course-gs-img" src="images/course-tab.png" alt="courses image">
+
+            <div class="empty-div col-lg-4">
+
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2000" class="col-lg-4 gs-description">
+
+                <h1 class="gs-texts">Prioritise customer success from day 1.</h1>
+
+                <p class="p-desc">Start with an engaging digital user manual, then regular product education. This will
+                    help your customers better understand your product and become loyal.</p>
+
+                <button class="btn gs-btn feature-btn">Get started with your business</button>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- Start of get started section -->
+
+
+    <!-- Start of coporate training section -->
+    <section id="corporate-training">
+
+        <!-- t-coporate description -->
+        <h1 class="cprt-title">Hassle free corporate training and staff on-boarding for your teams.</h1>
+
+        <p class="cprt-desc p-desc">Transform your workforce to superstars by creating an efficient learning and
+            development plan with the right tools.</p>
+
+        <!-- Get started button -->
+        <button class="btn feature-btn cprt-btn">Get started with your company</button>
+        <!-- End of Get started button -->
+
+
+        <!-- all get started images -->
+        <img class="cprt-fpic" src="images/n-nfpic.png" alt="first-image">
+        <img class="cprt-fo-pic" src="images/folder-icon.png" alt="second-image">
+        <img class="cprt-spic" src="images/sec-pic.png" alt="third-image">
+        <img class="cprt-n-fpic" src="images/first-pic.png" alt="fourth-image">
+        <img class="cprt-rg-pic" src="images/reg-course.png" alt="fifth-image">
+        <!-- End of all get started images -->
+
+    </section>
+    <!-- End of coporate training section -->
+
+    <!-- <img class="instructor-svg" src="images/svg-ln.png" alt="">
+    <img class="s-instructor-svg" src="images/svg-ln-2.png" alt=""> -->
+
+    <!-- Start of instructor section -->
+    <section id="instructor">
+
+        <div class="row">
+            <div class="col-lg-8 instructor-desc" data-aos="fade-right" data-aos-duration="2000">
+                <h3 class="dev-title sf-description">Join our developers program</h3>
+                <p class="p-desc">Over 100 developers and teams are making money by contributing 21st century software
+                    to
+                    our marketplace.
+                </p>
+                <button class="btn instructor-btn btn-primary">Apply to join</button>
+            </div>
+
+            <div class="col-lg-4 instructor-images">
+                <img data-aos="fade-down" data-aos-duration="2000" class="instructor-img"
+                    src="images/instructor-img.png" alt="third-image">
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-- End of instructor section -->
+
+    <!--The svg line in the testimonial background-->
+    <!-- <img src="images/testimonial-bg.png" alt="" class="testimonial-svg"> -->
+
+    <!-- Start of testimonials section -->
+    <section id="testimonials">
+
+        <!-- The blue card -->
+        <div class="testimonial-container">
+
+            <h1 class="testimonial-title">Hear what our customers say</h1>
+
+            <i class="star-icon fas fa-star"></i>
+            <i class="star-icon fas fa-star"></i>
+            <i class="star-icon fas fa-star"></i>
+            <i class="star-icon fas fa-star"></i>
+            <i class="star-icon fas fa-star"></i>
+
+
+
+            <div class="testimony-div row mx-lg-n5">
+
+                <!-- First testimony -->
+                <div class="f-testimony col mr-lg-3">
+
+                    <p class="testimonial-p">When Vincent from Traindemy showed us a better way to educate our customers
+                        on the installation,
+                        operation and maintenance of our products at Somerset, it changed a lot of things.</p>
+
+                </div>
+                <!-- End of First testimony -->
+
+                <img class="f-client" src="images/daniel.jpg" alt="First client">
+                <span class="cl1-name">
+                    <p class="fc-name">Daniel Thompson</p>
+                    <span class="fc-title">Somerset Group</span>
+                    <span class="fc-city">Johannesburg</span>
+                </span>
+
+                <!-- Second testimony -->
+                <div class="s-testimony col">
+
+                    <p class="testimonial-p">I use Traindemy LMS software for my trainings and it has helped me reach more students.</p>
+
+                </div>
+                <!-- End of Second testimony -->
+            </div>
+
+            <img class="s-client" src="images/naomi.jpg" alt="second client">
+
+            <span class="cl2-name">
+                <p class="fc-name">Naomi Omonusa</p>
+                <span class="fc-title">Ohr Academy</span>
+                <span class="fc-city">Benin, Nigeria</span>
+            </span>
+
+        </div>
+        <!-- End of The blue card -->
+
+    </section>
+    <!-- End of testimonials section -->
+
+
+    <!-- Start of pricing plan section -->
+    <section id="pricing-plan">
+
+        <!-- Our plan description -->
+        <div class="plan-desc">
+            <p class="small-title">Pricing is easy</p>
+            <h3 class="p-description">Start first with what you need and then the free stuff.</h3>
+            <button class="btn customize-btn"></i>Customize your subscription<i class="fas fa-caret-right"></i></button>
+        </div>
+
+        <!-- End of Our plan description -->
+
+    </section>
+    <!-- End of pricing plan section -->
+
+    <section id="plan-card">
+
+        <!-- The plan card -->
+        <div class="row">
+
+            <div class="col-lg-4 f-plan">
+                <h3 class="pcard-title">LMS</h3>
+                <h3 class="duration-cost">$30</h3>
+                <span class="price-duration">Per Month</span>
+                <p class="for-individuals">For individuals trainers & facilitators</p>
+                <ul class="pcard-lst">
+                    <li><i class="fas fa-check"></i>Create Online Courses</li>
+                    <li><i class="fas fa-check"></i>In-app messaging with students</li>
+                    <li><i class="fas fa-check"></i>Publish unlimited courses</li>
+                    <li><i class="fas fa-check"></i>Custom domain option</li>
+                    <li><i class="fas fa-check"></i>Generate discount coupons</li>
+                    <li><i class="fas fa-check"></i>Eventspro, Online and Offline events</li>
+                </ul>
+                <button class="btn fprice-btn">Select Plan</button>
+            </div>
+
+            <div class="col-lg-4 s-plan">
+                <h3 class="s-duration-cost">$100</h3>
+                <span class="s-price-duration">Per Month</span>
+                <h3 class="for-schools">For Schools/Academics</h3>
+                <ul class="s-pcard-lst">
+                    <li><i class="fas fa-check"></i>School management System</li>
+                    <li><i class="fas fa-check"></i>TestX, Assessment Software</li>
+                    <li><i class="fas fa-check"></i>Traindemy LMS</li>
+                    <li><i class="fas fa-check"></i>Eventpro</li>
+                    <li><i class="fas fa-check"></i>Nigenius, Google for teachers</li>
+                </ul>
+                <button class="btn fprice-btn feature-btn">Select Plan</button>
+            </div>
+
+            <div class="col-lg-4 th-plan">
+                <h3 class="th-duration-cost">$100</h3>
+                <span class="th-price-duration">per month</span>
+                <p class="for-sme">For SMEs</p>
+                <ul class="th-pcard-lst">
+                    <li><i class="fas fa-check"></i>Company Profile</li>
+                    <li><i class="fas fa-check"></i>Corporate Training</li>
+                    <li><i class="fas fa-check"></i>Assessment</li>
+                    <li><i class="fas fa-check"></i>Company Data Management</li>
+                    <li><i class="fas fa-check"></i>Onboarding</li>
+                </ul>
+                <button class="btn fprice-btn feature-btn">Select Plan</button>
+            </div>
+
+        </div>
+
+        <!-- The plan card -->
+    </section>
+
+    <!-- Footer section -->
+    <section id="footer">
+
+
+        <div class="row">
+
+            <!-- brand section of the footer -->
+            <div class="col-lg-4 col-md-8 brand">
+                <img class="footer-logo" src="images/logo.png" alt="the company brand logo">
+                <p class="footer-abt">Access innovative training solutions for your product education, online training,
+                    summer camps, assessment, webinars, gamified learning and more.</p>
+                <input class="footer-input" id="email" type="email" placeholder="Enter your email">
+                <button class="btn footer-email-btn">
+                    <span class="Subscribe-btn">Subscribe now</span>
+                </button>
+            </div>
+
+            <!-- company section -->
+            <div class="col-lg-2 col-md-4 company">
+                <h4 class="comp-title">Company</h4>
+                <ul class="footer-lst">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">How we work</a></li>
+                    <li><a href="#">Help/FAQ</a></li>
+                </ul>
+            </div>
+            <!-- end of company section -->
+
+            <!-- solution section -->
+            <div class="col-lg-2 col-md-4 solution">
+                <h4 class="solution-title">Solutions</h4>
+                <ul class="footer-lst">
+                    <li><a href="#">Product Marketplace</a></li>
+                    <li><a href="#">LMS</a></li>
+                    <li><a href="#">SummerClasses</a></li>
+                    <li><a href="#">Workshop</a></li>
+                    <li><a href="#">School Management Portal</a></li>
+                </ul>
+            </div>
+            <!-- end of solution section -->
+
+            <!-- more section -->
+            <div class="col-lg-2 col-md-4 more">
+                <h4 class="more-title">More</h4>
+                <ul class="footer-lst">
+                    <li><a href="#">Become a Trainer</a></li>
+                    <li><a href="#">Companies</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#">Gift Course</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <!-- end of more section -->
+
+            <!-- legal section -->
+            <div class="col-lg-2 col-md-4 legal">
+                <h4 class="legal-title">Legal</h4>
+                <ul class="footer-lst">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                </ul>
+            </div>
+            <!-- end of legal section -->
+
+        </div>
+
+
+        <!-- copyright texts -->
+        <p class="copyright">All rights reserved &copy; Traindemy Company Limited</p>
+
+    </section>
+    <!-- End of Footer section -->
+
+    <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
