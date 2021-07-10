@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses | Marketplace</title>
+
+    <!-- AOS animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+
+    <!--Bootstrap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- fontawesome kits -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <Section id="market-header">
+
+        <div class="market-container-fluid">
+            <span class="market-menu-btn userdash-menu-btn" style="font-size:30px; cursor:pointer" onclick="openNav()"><i
+                    class="fas fa-bars"></i></span>
+            <div class="top-nav">
+                <a class="market-logo" href="#">
+                    <img class="market-main-logo" src="images/dash-logo.png" alt="traindemy brand logo">
+                </a>
+
+                <h3 class="top-nav-title">Marketplace</h3>
+
+                <a href="#" class="paint-icon market-paint-icon"><i class="fas fa-palette"></i></a>
+            </div>
+
+            <div class="market-search">
+                <i class="fas fa-search search-icon"></i>
+                <input type="search" placeholder="Search the Marketplace for plugins, products, courses...">
+                <i onclick(); class="fas fa-arrow-right forward-icon"></i>
+            </div>
+
+            <!-- Start of navigation bar -->
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="market-closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                <img class="mark-logo-sidemenu" src="images/dash-logo.png" alt="traindemy brand logo">
+                <a class="market-a nav-link active" href="marketplace.html">All</a>
+                <a class="nav-link" href="plugin-marketplace.html">Plugins</a>
+                <a class="nav-link active" href="courses.html">Courses</a>
+                <a href="#" class="paint-icon market-paint-icon"><i class="fas fa-palette"></i></a>
+            </div>
+
+            <!-- Main nav -->
+            <nav class="navbar navbar-expand-lg">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav navbar-center">
+                        <li class="market-link nav-item">
+                            <a class="market-a nav-link" href="marketplace.html">All</a>
+                        </li>
+                        <li class="market-link nav-item">
+                            <a class="nav-link" href="plugin-marketplace.html">Plugins</a>
+                        </li>
+                        <li class="market-link nav-item">
+                            <a class="nav-link active" href="courses.html">Courses</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav> 
+            <!-- End of navigation bar-->
+
+        </div>
+
+
+    </Section>
+
+    <section id="market-card-menu">
+
+        <div class="first-row row">
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card course-card">
+                    <img class="card-img-top" src="images/courseCard.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h1 class="course-title">Web Design 2020 Boot...</h1>
+                        <p class="card-text course-owner">By Williams Adebanjo</p>
+                        <h1 class="course-price">$10.99</h1>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <p class="purc-num"><span class="purchase-num">11,502 </span>purchased</p>
+                        <button class="btn btn-primary purchase-btn">Purchased</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card course-card">
+                    <img class="card-img-top" src="images/courseCard.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h1 class="course-title">Web Design 2020 Boot...</h1>
+                        <p class="card-text course-owner">By Williams Adebanjo</p>
+                        <h1 class="course-price">$10.99</h1>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <p class="purc-num"><span class="purchase-num">11,502 </span>purchased</p>
+                        <button class="btn btn-primary purchase-btn">Purchased</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card course-card">
+                    <img class="card-img-top" src="images/courseCard.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h1 class="course-title">Web Design 2020 Boot...</h1>
+                        <p class="card-text course-owner">By Williams Adebanjo</p>
+                        <h1 class="course-price">$10.99</h1>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <p class="purc-num"><span class="purchase-num">11,502 </span>purchased</p>
+                        <button class="btn btn-primary purchase-btn">Purchased</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card course-card">
+                    <img class="card-img-top" src="images/courseCard.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h1 class="course-title">Web Design 2020 Boot...</h1>
+                        <p class="card-text course-owner">By Williams Adebanjo</p>
+                        <h1 class="course-price">$10.99</h1>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <p class="purc-num"><span class="purchase-num">11,502 </span>purchased</p>
+                        <button class="btn btn-primary purchase-btn">Purchased</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card course-card">
+                    <img class="card-img-top" src="images/courseCard.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h1 class="course-title">Web Design 2020 Boot...</h1>
+                        <p class="card-text course-owner">By Williams Adebanjo</p>
+                        <h1 class="course-price">$10.99</h1>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <p class="purc-num"><span class="purchase-num">11,502 </span>purchased</p>
+                        <button class="btn btn-primary purchase-btn">Purchased</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card course-card">
+                    <img class="card-img-top" src="images/courseCard.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h1 class="course-title">Web Design 2020 Boot...</h1>
+                        <p class="card-text course-owner">By Williams Adebanjo</p>
+                        <h1 class="course-price">$10.99</h1>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <i class="fas fa-star course-star-icon"></i>
+                        <p class="purc-num"><span class="purchase-num">11,502 </span>purchased</p>
+                        <button class="btn btn-primary purchase-btn">Purchased</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <button class="btn btn-primary load-mr-btn">Load more</button>
+
+
+    </section>
+
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
