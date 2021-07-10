@@ -1,0 +1,1462 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: small;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+}
+
+button:focus {
+    outline: none;
+    border: 0;
+}
+
+.fa-caret-right {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+/* SVG Background */
+
+.svg-bg {
+    position: absolute;
+    top: 690px;
+    display: block;
+    margin-top: 0;
+}
+
+.h-ln2 {
+    width: 100%;
+    position: absolute;
+    top: 45rem;
+    z-index: 1;
+}
+
+.h-ln {
+    width: 100%;
+    position: absolute;
+    top: 48rem;
+    z-index: 1;
+}
+
+/* Header Section */
+
+.container-fluid {
+    padding: 4% 7% 4rem 7%;
+}
+
+#header {
+    background-color: #f8ecdb;
+    text-align: left;
+}
+
+.navbar-brand img {
+    width: 250px;
+}
+
+.nav-item, .nav-link {
+    color: rgb(0, 0, 0);
+    padding: 0 3rem;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #e48d14;
+}
+
+.navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    color: #000;
+}
+
+.sign-btn {
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+    padding: 0.7rem 3rem;
+    margin: 0.5rem 1.4rem 0.5rem 3rem;
+    border-radius: 50px;
+    box-shadow: 1px 0.3px 10px rgb(207, 207, 207);
+}
+
+.sign-btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+
+.custom-btn {
+    background-color: #e48d14;
+    color: #fff;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    box-shadow: 1px 0.3px 10px rgb(207, 207, 207);
+}
+
+.custom-btn:hover {
+    background-color: #b36e0d;
+    color: #fff;
+}
+
+/* Hero */
+
+.hero-title {
+    margin: 9rem 0 2rem 9rem;
+    font-size: 2.9rem;
+    font-weight: 900;
+    line-height: 4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.training-text {
+    color: #3c7edc;
+}
+
+.employee-text {
+    color: #e48d14;
+}
+
+.employee-text::before {
+    content: "Employees";
+    animation: animate infinite 5s;
+}
+
+.hero-paragraph {
+    margin: 0 0 2rem 9rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.getStart-btn {
+    margin-left: 9rem;
+    color: #fff;
+    padding: 1.0rem 3rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.getStart-watch-btn {
+    background-color: #e48d14;
+    margin-left: 0.5rem;
+    color: #fff;
+    padding: 1.0rem 3rem;
+    border-radius: 30px;
+}
+
+.getStart-watch-btn:hover {
+    background-color: #804e08;
+    color: #fff;
+}
+
+/* Hero images */
+
+.lady-img {
+    position: relative;
+    top: 24px;
+    left: 30%;
+    width: 80%;
+}
+
+.hero-fpic {
+    width: 10%;
+    position: absolute;
+    top: 22rem;
+    right: 31rem;
+    animation: bounce 10s infinite;
+    -webkit-animation: bounce 10s infinite;
+    -moz-animation: bounce 10s infinite;
+    -o-animation: bounce 10s infinite;
+}
+
+.hero-spic {
+    width: 10%;
+    position: absolute;
+    top: 8rem;
+    right: 24rem;
+    animation: bounce 10s infinite;
+    -webkit-animation: bounce 10s infinite;
+    -moz-animation: bounce 10s infinite;
+    -o-animation: bounce 10s infinite;
+}
+
+.hero-thpic {
+    width: 6%;
+    position: absolute;
+    top: 9rem;
+    right: 3rem;
+    animation: bounce 10s infinite;
+    -webkit-animation: bounce 10s infinite;
+    -moz-animation: bounce 10s infinite;
+    -o-animation: bounce 10s infinite;
+}
+
+.hero-fopic {
+    width: 10%;
+    position: absolute;
+    top: 25rem;
+    right: -5.5rem;
+    animation: bounce 10s infinite;
+    -webkit-animation: bounce 10s infinite;
+    -moz-animation: bounce 10s infinite;
+    -o-animation: bounce 10s infinite;
+}
+
+.hero-fifpic {
+    width: 10%;
+    position: absolute;
+    top: 32rem;
+    right: 5rem;
+    animation: bounce 10s infinite;
+    -webkit-animation: bounce 10s infinite;
+    -moz-animation: bounce 10s infinite;
+    -o-animation: bounce 10s infinite;
+}
+
+/* Client Section */
+
+#clients {
+    background-color: #fff;
+    position: relative;
+    margin: 10rem 0 0 0;
+    padding: 0.1% 15% 5%;
+    text-align: center;
+    z-index: 1;
+}
+
+.client-title {
+    color: rgb(129, 129, 129);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.client-logo {
+    padding: 10px 35px;
+}
+
+.standage {
+    width: 18%;
+}
+
+.sormerset {
+    width: 16%;
+}
+
+.spoof {
+    width: 12.5%;
+}
+
+.osc {
+    width: 12%;
+}
+
+.uaba {
+    width: 18%;
+}
+
+/* Features section */
+
+#features {
+    padding: 3% 3%;
+}
+
+.f-description {
+    padding: 30px;
+    font-size: 2.5rem;
+    line-height: 4rem;
+    color: rgb(95, 95, 95);
+    font-weight: 600;
+    text-align: center;
+}
+
+.s-feature {
+    margin: 13% 0 9% 0;
+    padding-right: 1px;
+}
+
+.sf-description {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #2672dd;
+}
+
+.p-desc {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.feature-btn {
+    border-radius: 50px;
+    margin-top: 2%;
+    padding: 0.7rem 3rem;
+}
+
+.b-instructor {
+    font-size: 0.7rem;
+}
+
+img.feature-img-one, img.feature-img-two, img.feature-img-three {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 0.1px 10px rgb(228, 228, 228);
+    padding: 0;
+    margin-right: 30px;
+    text-align: right;
+}
+
+/* Get Started Section */
+
+#getStarted {
+    padding: 2% 7%;
+}
+
+.gs-img {
+    max-width: 350px;
+    height: 250px;
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 1px 0.3px 10px rgb(196, 196, 196);
+}
+
+.course-gs-img {
+    width: 20%;
+    position: absolute;
+    left: 15rem;
+    border-radius: 15px;
+    /* box-shadow: 1px 0.3px 10px rgb(207, 207, 207); */
+}
+
+.gs-texts {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    color: #2672dd;
+    padding: 0.5rem 0;
+}
+
+.gs-btn {
+    background-color: #e48d14;
+    color: #fff;
+}
+
+.gs-button {
+    font-size: 0.8rem;
+}
+
+/* Corporate section */
+
+#corporate-training {
+    background-image: url(/images/cprt-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 12%;
+    text-align: left;
+    position: relative;
+    padding: 8% 4%;
+    z-index: 1;
+}
+
+.cprt-title {
+    font-size: 2rem;
+    color: #f38e00;
+    font-weight: 500;
+    width: 30%;
+    line-height: 2.8rem;
+}
+
+.cprt-desc {
+    width: 40%;
+    font-size: 1rem;
+    margin-top: 2%;
+    line-height: 1.9rem;
+    color: rgb(156, 156, 156);
+    font-weight: 400;
+}
+
+.cprt-btn {
+    margin-top: 2%;
+    background-color: #f38e00;
+    color: #fff;
+    font-size: 1.3rem;
+    padding: 1rem 3rem;
+}
+
+.cprt-fpic {
+    border-radius: 10px;
+    width: 14%;
+    position: absolute;
+    right: 24rem;
+    box-shadow: 1px -3px 15px rgb(139, 139, 139);
+}
+
+.cprt-fo-pic {
+    width: 2%;
+    position: absolute;
+    right: 4.3rem;
+    top: 7.5rem;
+    z-index: 1;
+}
+
+.cprt-spic {
+    width: 10%;
+    position: absolute;
+    right: 5rem;
+    top: 8rem;
+    border-radius: 10px;
+    box-shadow: -5px 1px 20px rgb(97, 97, 97);
+}
+
+.cprt-n-fpic {
+    width: 20%;
+    position: absolute;
+    right: 12rem;
+    top: 13.7rem;
+    z-index: -1;
+}
+
+.cprt-rg-pic {
+    width: 10%;
+    position: absolute;
+    right: 7rem;
+    top: 19rem;
+}
+
+/* Instructor Section */
+
+#instructor {
+    padding: 3% 7%;
+}
+
+.dev-title {
+    width: 98%;
+}
+
+.instructor-desc {
+    margin-top: 5%;
+}
+
+.instructor-btn {
+    padding: 1rem 2.5rem;
+}
+
+.instructor-img {
+    border-radius: 10px;
+    max-width: 650px;
+    height: 350px;
+}
+
+.instructor-svg {
+    width: 100%;
+    position: absolute;
+    top: 163rem;
+}
+
+.s-instructor-svg {
+    width: 100%;
+    position: absolute;
+    top: 168rem;
+    z-index: -4;
+}
+
+.instructor-fp {
+    width: 25%;
+    position: absolute;
+    top: 120rem;
+    right: 3rem;
+    z-index: 1;
+    border-radius: 10px;
+    box-shadow: 1px -3px 15px rgb(196, 196, 196);
+}
+
+/* Testimoial Section */
+
+#testimonials {
+    padding: 4% 7%;
+}
+
+.testimonial-container {
+    background-color: #eef8ff;
+    border-radius: 15px;
+    padding: 3% 5% 18%;
+    text-align: center;
+}
+
+/* .testimonial-svg {
+    width: 100%;
+    position: absolute;
+    top: 205rem;
+    z-index: -1;
+} */
+
+.testimonial-title {
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 3%;
+    color: #02005a;
+}
+
+.star-icon {
+    font-size: 2rem;
+    color: #e48705;
+    padding-bottom: 3.9%;
+}
+
+/* First Testimony */
+
+.f-testimony {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px rgb(192, 192, 192);
+    font-size: 1.4rem;
+}
+
+.s-testimony {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px rgb(192, 192, 192);
+    font-size: 1.4rem;
+}
+
+.f-client {
+    width: 7%;
+    border-radius: 50%;
+    position: absolute;
+    top: 286rem;
+    left: 31rem;
+}
+
+.s-client {
+    width: 7%;
+    border-radius: 50%;
+    position: absolute;
+    top: 286rem;
+    right: 31rem;
+}
+
+.cl1-name {
+    position: absolute;
+    top: 295rem;
+    left: 31rem;
+}
+
+.cl2-name {
+    position: absolute;
+    top: 295rem;
+    right: 31rem;
+}
+
+.fc-name {
+    color: #2672dd;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 3px;
+}
+
+.fc-title {
+    font-size: 8.5px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    color: rgb(145, 145, 145);
+    margin-bottom: 0;
+}
+
+.fc-city {
+    font-size: 9px;
+}
+
+/* Pricing plan */
+
+#pricing-plan {
+    background-color: #ffffff;
+    padding: 3% 10%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.plan-desc {
+    padding: 5%;
+}
+
+.small-title {
+    font-size: 2rem;
+    color: #0A033C;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+
+.p-description {
+    font-size: 2.5rem;
+    color: #002558;
+    font-family: 'Mulish', sans-serif;
+    padding: 20px;
+}
+
+.customize-btn {
+    border-radius: 30px;
+    font-size: 1.5rem;
+    background-color: #e48705;
+    color: #fff;
+    margin: 40px 0;
+    padding: 10px 50px;
+    text-align: center;
+}
+
+#plan-card {
+    background-color: #b7d5ff;
+    padding: 30px 14%;
+    margin: 0;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* First plan */
+
+.f-plan {
+    background-color: #fff;
+    border-radius: 5px 50px;
+    padding: 40px 70px;
+    text-align: left;
+    position: relative;
+    top: -150px;
+    box-shadow: 1px 3px 10px rgb(192, 192, 192);
+}
+
+.pcard-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 2rem 0 0.5rem;
+    color: rgb(92, 92, 92);
+}
+
+.duration-cost {
+    font-size: 3rem;
+    color: #002255;
+    display: inline-block;
+}
+
+.price-duration {
+    font-size: 1rem;
+    text-align: left;
+    color: rgb(92, 92, 92);
+    font-weight: 500;
+    position: relative;
+    top: -10px;
+}
+
+.for-individuals {
+    color: #2672dd;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.pcard-lst {
+    list-style-type: none;
+    line-height: 2rem;
+    font-size: 1rem;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.pcard-lst li {
+    padding: 15px 0
+}
+
+.f-plan ul i {
+    padding-right: 10px;
+    color: #065096;
+}
+
+.fprice-btn, .sprice-btn, .thprice-btn {
+    text-align: center;
+    padding: 10px 100px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    background-color: #1a79d3;
+    color: #fff;
+}
+
+/* Second-plan */
+
+.s-plan {
+    background-color: #002255;
+    border-radius: 50px 50px 0 0;
+    color: #fff;
+    padding: 100px 70px;
+    text-align: left;
+    position: relative;
+    top: -150px;
+    box-shadow: 1px 3px 10px rgb(192, 192, 192);
+}
+
+.s-duration-cost {
+    font-size: 3rem;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.s-price-duration {
+    font-size: 1rem;
+    text-align: left;
+    color: rgb(238, 238, 238);
+    font-weight: 500;
+    position: relative;
+    top: -10px;
+}
+
+.for-schools {
+    color: #ff9b0f;
+    font-size: 1.3rem;
+    text-align: left;
+    font-weight: 400;
+}
+
+.s-pcard-lst {
+    list-style-type: none;
+    line-height: 2rem;
+    font-size: 1rem;
+    padding: 10px 0;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.s-pcard-lst li {
+    padding: 15px 0
+}
+
+.s-plan ul i {
+    padding-right: 10px;
+    color: #ffffff;
+}
+
+/* third plan */
+
+.th-plan {
+    background-color: #fff;
+    border-radius: 50px 5px;
+    padding: 100px 70px;
+    text-align: left;
+    position: relative;
+    top: -150px;
+    box-shadow: 1px 3px 10px rgb(192, 192, 192);
+}
+
+.th-duration-cost {
+    font-size: 3rem;
+    color: #002255;
+    display: inline-block;
+}
+
+.th-price-duration {
+    font-size: 1rem;
+    text-align: left;
+    color: rgb(92, 92, 92);
+    font-weight: 500;
+    position: relative;
+    top: -10px;
+}
+
+.for-sme {
+    font-size: 1.3rem;
+    text-align: left;
+    font-weight: 400;
+    color: #2672dd;
+}
+
+.th-pcard-lst {
+    list-style-type: none;
+    line-height: 2rem;
+    font-size: 1rem;
+    padding: 10px 0;
+    text-align: left;
+    margin-top: 0;
+}
+
+.th-pcard-lst li {
+    padding: 15px 0
+}
+
+.th-plan ul i {
+    padding-right: 10px;
+    color: #065096;
+}
+
+.p-gt-btn {
+    padding-right: 10px;
+    font-size: 0.8rem;
+}
+
+.plan-desc i {
+    font-size: 1.4rem;
+    padding-left: 20px;
+}
+
+.price-arrow {
+    font-size: 1rem;
+}
+
+/* Footer Section */
+
+#footer {
+    padding: 9% 7% 1%;
+    background-color: #fff;
+}
+
+.brand {
+    max-width: 800px;
+}
+
+.footer-logo {
+    margin-bottom: 2rem;
+    width: 220px;
+}
+
+.footer-abt {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    color: rgb(75, 75, 75);
+}
+
+.footer-input {
+    padding: 20px 150px 15px 30px;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px rgb(189, 189, 189);
+}
+
+.footer-input:focus {
+    outline: none;
+}
+
+.footer-email-btn {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: #2672dd;
+    color: #fff;
+    position: relative;
+    top: -0.2rem;
+    right: 3rem;
+}
+
+.Subscribe-btn {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.comp-title, .solution-title, .more-title, .legal-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2672dd;
+    margin-bottom: 2rem;
+}
+
+.footer-lst {
+    list-style-type: none;
+    color: #000;
+    font-size: 1rem;
+}
+
+.footer-lst a {
+    color: #000;
+    text-decoration: none;
+    line-height: 3rem;
+}
+
+.footer-lst a:hover {
+    color: #e48d14;
+}
+
+.copyright {
+    padding: 10% 0 0 0;
+    text-align: center;
+    font-weight: 500;
+    color: #aaa;
+}
+
+/******************************** Hover Effect ***********************************************/
+
+/* for start free trial btn*/
+
+.getStart-btn:hover::before {
+    transform: scaleX(1);
+    color: rgb(255, 255, 255) !important;
+    z-index: -1;
+}
+
+.getStart-btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #021f6d;
+    z-index: 1;
+    border-radius: 20px;
+    transition: transform 0.5s;
+    transition-timing-function: ease;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform: scaleX(0);
+}
+
+/******************************************** Get Started Page ************************************************/
+#registration-page .row{
+    margin: 0;
+}
+
+#registration-page {
+    font-family: 'Mulish', sans-serif;
+}
+
+#registration-page .right-side nav .nav-link{
+    color: #fff;
+}
+
+#registration-page .right-side nav .nav-link:hover{
+    color: #ffac38;
+}
+
+#registration-page .right-side nav .navbar-collapse button{
+    box-shadow: none;
+    font-weight: 600;
+}
+
+
+/* The left Container styles */
+
+.left-side {
+    margin-top: 5rem;
+    padding: 0 7%;
+}
+
+.reg-illustrator {
+    max-width: 100%;
+    height: 256px;
+    margin: 30% 2%;
+    text-align: left;
+}
+
+.reg-illustrator img {
+    width: 300px;
+    text-align: center;
+    margin: 10% 5%;
+}
+
+.reg-illustrator .reg-btn {
+    padding: 2% 9%;
+    font-size: 1.4rem;
+    border-radius: 30px;
+    margin: 20px 20px;
+    font-weight: 200;
+}
+
+.reg-illustrator .reg-btn i {
+    padding: 3% 9%;
+    font-size: 1.4rem;
+}
+
+.reg-title {
+    font-size: 2.3rem;
+    color: #2672dd;
+    font-weight: 200;
+    padding-left: 20px;
+}
+
+/* The right Container styles */
+
+.right-side {
+    padding: 3% 5% 3% 0;
+    height: 100vh;
+    background-image: url(/images/reg-img.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 50%;
+    background-position: center;
+}
+
+.right-container-title  {
+    padding: 40% 10% 20% 25%;
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+}
+
+.right-container-title .big-title   {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 20px 40px;
+}
+
+.right-container-title .big-title .colored-titled   {
+    color: #fa9201;
+}
+
+.right-container-title .reg-small-title {
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 0 40px;
+}
+
+
+/*********************************************** Registration  Page ****************************************************/
+
+.reg-left-side {
+    background-color: #ebf4ff;
+    margin-top: 0rem;
+    padding: 0 7%;
+}
+
+.reg-left-side .company-brand   {
+    margin-top: 5rem;
+}
+
+form{
+    width: 90%;
+    margin-top: 15%;
+}
+
+form h1{
+    font-size: 2.3rem;
+    font-weight: 500;
+    color: #2672dd;
+    margin-bottom: 20px;
+}
+
+.form   {
+    padding: 20px;
+    height: 300px;
+    display: none;
+    font-weight: 500;
+}
+
+.form .field{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.field input{
+    border: none;
+    border-bottom: 1px solid rgb(27, 141, 248);
+    background: none;
+    padding: 10px 205px 10px 0;
+    font-style: 0.5rem;
+}
+
+.field input:focus{
+    outline: none;
+}
+
+.eye-icon1 {
+    color: #bbb;
+    position: absolute;
+    top: 49%;
+    right: 230px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.eye-icon2 {
+    color: #bbb;
+    position: absolute;
+    top: 55.5%;
+    right: 230px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.form.active {
+    display: block;
+}
+
+.field>span {
+    margin-left: 2px;
+    display: block;
+    font-style: italic;
+    color: red;
+}
+
+.form-btn   {
+    display: flex;
+}
+
+.form-btn .btn {
+    margin-top: 120px;
+    margin-left: 20px;
+    padding: 10px 50px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+}
+
+.form-btn .btn:nth-of-type(1){
+    display: none;
+}
+
+.page-indicator {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-indicator em{
+    display: block;
+    width: 50px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #dfdfdf;
+    margin: 150px 5px 0 0;
+}
+
+.page-indicator em.cur-page{
+    background: linear-gradient(35deg, rgb(30, 1, 105), rgb(98, 98, 255));
+}
+
+/*************************************************************** Marketplace Page ******************************************************/
+
+.market-menu-btn    {
+    display: none;
+}
+
+.sidenav {
+    display: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(145, 145, 145, 0.2);
+  }
+
+.market-a.active{
+    color: #1569df;
+    font-size: 1.5rem;
+}
+
+#market-header  {
+    background-color: #F1FCFF;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.market-container-fluid {
+    padding: 4% 7%;
+}
+
+.top-nav    {
+    display: flex;
+}
+
+.market-logo img {
+    display: flex;
+    justify-content: start;
+    width: 30%;
+}
+
+.top-nav-title  {
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-right: 100px;
+    color: #1F8CF0;
+    cursor: pointer;
+}
+
+.market-paint-icon i{
+    font-size: 1.8rem;
+}
+
+.market-search  {
+    margin: 5% auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.market-search input{
+    border: 1px solid #b7d5ff;
+    border-radius: 50px;
+    background: transparent;
+    width: 50%;
+    padding: 20px;
+}
+
+.market-search input[type=search]{
+    padding-left: 70px;
+    color: #bbb;
+    font-size: 1rem;
+}
+
+.market-search .search-icon  {
+    color: #bbb;
+    font-size: 20px;
+    position: relative;
+    top: 23px;
+    left: 50px;
+}
+
+.market-search .forward-icon {
+    color: #000;
+    font-size: 20px;
+    position: relative;
+    top: 23px;
+    left: -50px;
+    cursor: pointer;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+li.market-link {
+    color: #1F8CF0;
+    font-size: 1.2rem;
+    padding: 0 100px;
+}
+
+li.market-link a{
+    color: #1F8CF0;
+    font-size: 1.2rem;
+}
+
+
+/* Products Container */
+
+#market-card-menu   {
+    background-color: #F1FCFF;
+    font-family: 'Mulish', sans-serif;
+    padding: 5% 4%;
+}
+
+.course-card    {
+    margin-bottom: 3rem;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px rgb(218, 218, 218);
+}
+
+.card-img-top   {
+    border-radius: 20px 20px 0 0;
+}
+
+.card-body .course-title   {
+    display: inline-block;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.course-price   {
+    font-size: 2.4rem;
+    position: absolute;
+    top: 310px;
+    left: 255px;
+}
+
+.card-body .course-star-icon    {
+    font-size: 1.3rem;
+    color: #e48705;
+}
+
+.purc-num   {
+    font-size: 1rem;
+}
+
+.purchase-num   {
+    font-weight: bold;
+}
+
+.purchase-btn   {
+    position: absolute;
+    top: 385px;
+    left: 220px;
+    padding: 10px 50px;
+}
+
+.first-row  {
+    margin-bottom: 30px;
+}
+
+.load-mr-btn    {
+    text-align: center;
+    margin: 10rem auto 0;
+    display: flex;
+    font-size: large;
+    font-weight: 500;
+    padding: 10px 30px;
+}
+
+.divider    {
+    border-bottom: 1px solid #b7d5ff;
+    width: 80%;
+    margin: 5rem auto;
+}
+
+
+/* *************************************************** Plugin Page **************************************************/
+
+.plugin-img {
+    width: 130px;
+    margin: 40px 20px 0;
+    border-radius: 10px;
+}
+
+.plugin-card    {
+    background-color: #F1FCFF;
+    padding-left: 10px;
+    width: 100%;
+    height: 35vh;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px rgb(235, 235, 235);
+}
+
+.owner-avatar img{
+    width: 40px;
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.plugin-title   {
+    display: inline-block;
+    font-size: 1.5rem;
+    width: 100%;
+    font-weight: 500;
+}
+
+.plugin-details   {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #777;
+}
+
+.plugin-btn {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-size: 1.4rem;
+    color: #1569df;
+    padding: 2px 20px;
+    background-color: transparent;
+    border: none;
+}
+
+.plugin-price   {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    font-weight: 500;
+}
+
+.plugin-star-icon   {
+    font-size: 1.3rem;
+    color: #e48705;
+    display: inline-block;
+}
+
+.owner-avatar   {
+    display: block;
+}
+
+.instl-num{
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.install-num    {
+    font-size: 1rem;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+/*********************************************************************** Animation kits***************************************************/
+
+/* For the bouncing images in the hero section */
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-10px);
+    }
+    60% {
+        -webkit-transform: translateY(-1px);
+    }
+}
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-10px);
+    }
+    60% {
+        -moz-transform: translateY(-1px);
+    }
+}
+
+@-o-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -o-transform: translateY(0);
+    }
+    40% {
+        -o-transform: translateY(-10px);
+    }
+    60% {
+        -o-transform: translateY(-1px);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-1px);
+    }
+}
+
+/* For changing texts in the hero section */
+
+@keyframes animate {
+    0% {
+        content: "Employees";
+    }
+    50% {
+        content: "Customers";
+    }
+    75% {
+        content: "Employees";
+    }
+}

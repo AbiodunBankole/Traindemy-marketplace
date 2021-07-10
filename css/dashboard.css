@@ -1,0 +1,453 @@
+/********************************************* For the Dashboard page *******************************************************************/
+
+
+.dash-logo {
+  width: 30%;
+  margin: 0 100px 90px 0;
+}
+
+/* Sidenav Icons */
+
+.material-icons {
+  text-align: left;
+  padding: 2% 3% 0 0;
+  position: relative;
+  left: -40px;
+  bottom: -0.2rem;
+}
+
+.sidenav {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+  height: 100%;
+  width: 460px;
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  padding-top: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(145, 145, 145, 0.2);
+}
+
+.sidenav a {
+  padding: 0 100px 40px 120px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #026dac;
+}
+
+.sidenav a.active {
+  color: #026dac;
+}
+
+.sidenav a.closebtn {
+  display: none;
+}
+
+.main {
+  margin-left: 0px;
+  /* Same as the width of the sidenav */
+  font-size: 28px;
+  /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  background-color: #f5f9ff;
+}
+
+.search {
+  background-color: transparent;
+  padding: 1rem 2.375rem;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+}
+
+.search-form {
+  position: relative;
+  top: 70px;
+  right: -200px;
+}
+
+.search-form .fa-search {
+  position: relative;
+  top: 44px;
+  right: -10px;
+  font-size: 15px;
+  color: #666;
+}
+
+.search-form input {
+  border: none;
+}
+
+.bell-icon {
+  margin: 3.5% 0;
+  position: relative;
+  top: 55.4px;
+  right: 70px;
+  color: rgb(122, 122, 122);
+  cursor: pointer;
+}
+
+.user {
+  margin: 5% 0;
+  position: relative;
+  top: 20px;
+  right: 100px;
+}
+
+.dash-profile {
+  position: absolute;
+  top: -0.1rem;
+  right: 4rem;
+  background-color: transparent;
+  border: 1px solid rgb(180, 180, 180);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 60px;
+  position: absolute;
+  top: 0;
+  right: 160px;
+}
+
+.user-profile-logo {
+  width: 20px;
+  position: relative;
+  top: -7px;
+}
+
+.dash-dropdown {
+  position: relative;
+  top: -10px;
+}
+
+.dash-dropdown i {
+  position: relative;
+  left: -10px;
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.dash-dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  min-width: 130px;
+  padding: 12px 16px;
+  text-align: center;
+  position: absolute;
+  top: 30px;
+  left: -10px;
+  font-size: 1rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dash-dropdown:hover .dash-dropdown-content {
+  display: block;
+}
+
+.dash-dropdown-content a {
+  display: block;
+  padding-bottom: 10px;
+  color: #aaa;
+}
+
+.dash-dropdown-content a:hover {
+  color: #0e58b9;
+  text-decoration: none;
+}
+
+.dash-dropdown-content a:last-child {
+  padding-bottom: 0;
+}
+
+/* Profile Menu */
+
+#dashboard-account {
+  padding: 4% 0 25% 30%;
+  margin: 0;
+  background-color: #f5f9ff;
+}
+
+.dash-title {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  color: #072d63;
+}
+
+.dash-paragraph-1 {
+  font-size: 1rem;
+  margin: 0.5rem 0 3rem;
+  color: #aaa;
+  font-weight: 400;
+}
+
+.choose-file {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 80%;
+}
+
+.file-input {
+  background-color: transparent;
+  width: 540px;
+  height: 200px;
+  border: 2px dashed #3c7edc;
+  padding: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.3rem;
+  color: #b7d5ff;
+}
+
+.file-input:focus {
+  border: 2px dashed #3c7edc;
+}
+
+.dash-paragraph {
+  font-size: 1.7rem;
+  margin-left: 3rem;
+  color: #072d63;
+}
+
+.add-icon {
+  padding-right: 10px;
+}
+
+.dash-btn {
+  border-radius: 10px;
+  background-color: transparent;
+  border: 2px solid #3c7edc;
+  color: #3c7edc;
+  font-size: 0.9rem;
+  padding: 10px 25px;
+}
+
+/******************************** User Dashboard Page **********************************************/
+
+.user-dash-main {
+  padding: 10px 10px;
+  background-image: url(../images/dash-lady.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+.user-bell-icon {
+  font-size: 1.7rem;
+  float: right;
+  color: rgb(94, 94, 94);
+  cursor: pointer;
+  margin: 2.6% 0;
+}
+
+.user-dash-profile-logo {
+  width: 28px;
+  float: right;
+  margin: 2% 0% 2% 1%;
+  width: 50px;
+  height: 50px;
+  border-radius: 60px;
+  text-align: center;
+  padding: 5px;
+}
+
+.user-dash-dropdown {
+  float: right;
+  margin: 2.6% 4% 2% 0.5%;
+}
+
+.user-dash-dropdown i {
+  font-size: 1.2rem;
+  color: rgb(133, 133, 133);
+}
+
+.user-dash-dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  min-width: 130px;
+  padding: 12px 16px;
+  text-align: center;
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  font-size: 1rem;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.user-dash-dropdown:hover .user-dash-dropdown-content {
+  display: block;
+}
+
+.user-dash-dropdown-content a {
+  display: block;
+  padding-bottom: 10px;
+  color: #aaa;
+}
+
+.user-dash-dropdown-content a:hover {
+  color: #0e58b9;
+  text-decoration: none;
+}
+
+.user-dash-dropdown-content a:last-child {
+  display: block;
+  padding-bottom: 0;
+}
+
+/* Company name */
+
+.company-brand {
+  background-color: rgb(255, 255, 255);
+  width: 420px;
+  height: 150px;
+  margin: 20rem 30rem 2rem;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.company-brand img {
+  width: 90px;
+  border-radius: 50px;
+  display: flexbox;
+  justify-content: right;
+  border: 1px solid #aaa;
+}
+
+.company-name {
+  display: inline-block;
+  font-weight: 500;
+  padding-left: 10px;
+  color: #072d63;
+}
+
+.company-msg {
+  position: absolute;
+  right: 56.5rem;
+  top: 26.5rem;
+  color: #aaa;
+}
+
+
+
+/* Main Menu */
+
+.main-menu  {
+  background-color: rgb(199, 199, 199);
+  padding: 5% 3% 20% 9%;
+  max-width: 80%;
+  display: flex;
+  justify-content: right;
+  float: right;
+}
+
+.description-contn  {
+  display: inline-block;
+}
+
+
+
+/* Video styles */
+
+.dashboard-vid-container {
+  padding-left: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 2000px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.custom-video {
+  width: 100%;
+}
+
+.video-container:hover .vid-controls  {
+  transform: translateY(0);
+}
+
+.vid-controls {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: transparent;
+  transform: translateY(100%) translateY(-3px);
+  transition: all .5s;
+}
+.vid-buttons  {
+  padding: 10px;
+}
+
+.vid-buttons button  {
+  background: none;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.vid-buttons button::before {
+  content: '\f144';
+  font-family: 'Font Awesome 5 Free';
+  width: 40px;
+  height: 36px;
+  display: inline-block;
+  font-size: 1.3rem;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+.vid-buttons button.play::before  {
+  content: '\f144';
+}
+
+.vid-buttons button.pause::before  {
+  content: '\f28b';
+}
+
+.time-bar {
+  height: 2px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+}
+
+.bar-color  {
+  height: 3px;
+  background-color: #024dbe;
+}
+
+
+.exp-vid-container  {
+  padding-left: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+
+.explainer-vid  {
+  padding: 0 8%;
+  margin-left: 12rem;
+  background-color: #f5f9ff;
+}
