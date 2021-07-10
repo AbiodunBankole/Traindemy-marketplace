@@ -13464,12 +13464,6 @@
     }
 
     .plugin-btn:hover {
-        position: absolute;
-        top: 70px;
-        left: 100px;
-        font-size: 1rem;
-        color: #1569df;
-        padding: 2px 20px;
         background-color: transparent;
         border: none;
     }
@@ -13781,12 +13775,6 @@
     }
 
     .plugin-btn:hover {
-        position: absolute;
-        top: 70px;
-        left: 100px;
-        font-size: 1rem;
-        color: #1569df;
-        padding: 2px 20px;
         background-color: transparent;
         border: none;
     }
