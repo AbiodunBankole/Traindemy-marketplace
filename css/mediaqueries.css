@@ -11799,6 +11799,737 @@
 
 
 
+/* 1700px */
+
+@media (max-width: 1700px) {
+    .market-container-fluid {
+        padding: 4% 7%;
+    }
+
+    .top-nav    {
+        display: flex;
+    }
+    
+    .market-logo img {
+        display: flex;
+        justify-content: start;
+        width: 30%;
+    }
+    
+    .top-nav-title  {
+        margin: auto;
+        font-size: 2rem;
+        font-weight: 400;
+        padding-right: 100px;
+        color: #1F8CF0;
+        cursor: pointer;
+    }
+    
+    .market-paint-icon i{
+        font-size: 1.8rem;
+    }
+    
+    .market-search  {
+        margin: 5% auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .market-search input{
+        border: 1px solid #b7d5ff;
+        border-radius: 50px;
+        background: transparent;
+        width: 70%;
+        padding: 20px;
+    }
+    
+    .market-search input[type=search]{
+        padding-left: 70px;
+        color: #bbb;
+        font-size: 1rem;
+    }
+    
+    .market-search .search-icon  {
+        color: #bbb;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: 50px;
+    }
+    
+    .market-search .forward-icon {
+        color: #000;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: -50px;
+        cursor: pointer;
+    }
+    
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    
+    li.market-link {
+        color: #1F8CF0;
+        font-size: 1.2rem;
+        padding: 0 70px;
+    }
+    
+    li.market-link a{
+        color: #1F8CF0;
+        font-size: 1.2rem;
+    }
+    
+    
+    /* Products Container */
+    
+    #market-card-menu   {
+        background-color: #F1FCFF;
+        font-family: 'Mulish', sans-serif;
+        padding: 5% 3%;
+    }
+    
+    .course-card    {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(218, 218, 218);
+    }
+    
+    .card-img-top   {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card-body .course-title   {
+        display: inline-block;
+        font-size: 1rem;
+        width: 100%;
+    }
+    
+    .course-price   {
+        font-size: 2rem;
+        position: absolute;
+        top: 280px;
+        left: 240px;
+    }
+    
+    .card-body .course-star-icon    {
+        font-size: 1rem;
+        color: #e48705;
+    }
+    
+    .purc-num   {
+        font-size: 0.8rem;
+    }
+    
+    .purchase-num   {
+        font-weight: bold;
+    }
+    
+    .purchase-btn   {
+        position: absolute;
+        top: 355px;
+        left: 199px;
+        padding: 8px 40px;
+    }
+    
+    .first-row  {
+        margin-bottom: 30px;
+    }
+    
+    .load-mr-btn    {
+        text-align: center;
+        margin: 10rem auto 5rem;
+        display: flex;
+        font-size: large;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    
+    .divider    {
+        border-bottom: 1px solid #b7d5ff;
+        width: 80%;
+        margin: 5rem auto;
+    }
+    
+    
+    /* *************************************************** Plugin Page **************************************************/
+    
+    .plugin-img {
+        width: 35%;
+        margin: 40px 20px 0;
+        border-radius: 10px;
+    }
+    
+    .plugin-card    {
+        background-color: #F1FCFF;
+        padding-left: 5px;
+        width: 100%;
+        height: 40vh;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(235, 235, 235);
+    }
+    
+    .owner-avatar img{
+        width: 60px;
+        border-radius: 40px;
+        margin-right: 7px;
+    }
+    
+    .plugin-title   {
+        display: inline-block;
+        font-size: 1.7rem;
+        width: 100%;
+        font-weight: 600;
+    }
+    
+    .plugin-details   {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        color: #777;
+    }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 100px;
+        left: 200px;
+        font-size: 1.5rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .plugin-btn {
+        position: absolute;
+        top: 86px;
+        left: 240px;
+        font-size: 2rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .plugin-price   {
+        position: absolute;
+        top: 40px;
+        left: 200px;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    
+    .plugin-star-icon   {
+        font-size: 1rem;
+        color: #e48705;
+        display: inline-block;
+    }
+    
+    .owner-avatar   {
+        display: block;
+    }
+    
+    .instl-num{
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    
+    .install-num    {
+        font-size: 1rem;
+        display: inline-block;
+    }
+}
+
+/* 1600px */
+
+@media (max-width: 1600px) {
+    .market-container-fluid {
+        padding: 4% 7%;
+    }
+
+    .top-nav    {
+        display: flex;
+    }
+    
+    .market-logo img {
+        display: flex;
+        justify-content: start;
+        width: 30%;
+    }
+    
+    .top-nav-title  {
+        margin: auto;
+        font-size: 2rem;
+        font-weight: 400;
+        padding-right: 100px;
+        color: #1F8CF0;
+        cursor: pointer;
+    }
+    
+    .market-paint-icon i{
+        font-size: 1.8rem;
+    }
+    
+    .market-search  {
+        margin: 5% auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .market-search input{
+        border: 1px solid #b7d5ff;
+        border-radius: 50px;
+        background: transparent;
+        width: 70%;
+        padding: 20px;
+    }
+    
+    .market-search input[type=search]{
+        padding-left: 70px;
+        color: #bbb;
+        font-size: 1rem;
+    }
+    
+    .market-search .search-icon  {
+        color: #bbb;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: 50px;
+    }
+    
+    .market-search .forward-icon {
+        color: #000;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: -50px;
+        cursor: pointer;
+    }
+    
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    
+    li.market-link {
+        color: #1F8CF0;
+        font-size: 1.2rem;
+        padding: 0 70px;
+    }
+    
+    li.market-link a{
+        color: #1F8CF0;
+        font-size: 1.2rem;
+    }
+    
+    
+    /* Products Container */
+    
+    #market-card-menu   {
+        background-color: #F1FCFF;
+        font-family: 'Mulish', sans-serif;
+        padding: 5% 3%;
+    }
+    
+    .course-card    {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(218, 218, 218);
+    }
+    
+    .card-img-top   {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card-body .course-title   {
+        display: inline-block;
+        font-size: 1rem;
+        width: 100%;
+    }
+    
+    .course-price   {
+        font-size: 1.7rem;
+        position: absolute;
+        top: 270px;
+        left: 240px;
+    }
+    
+    .card-body .course-star-icon    {
+        font-size: 1rem;
+        color: #e48705;
+    }
+    
+    .purc-num   {
+        font-size: 0.8rem;
+    }
+    
+    .purchase-num   {
+        font-weight: bold;
+    }
+    
+    .purchase-btn   {
+        position: absolute;
+        top: 336px;
+        left: 189px;
+        padding: 8px 40px;
+    }
+    
+    .first-row  {
+        margin-bottom: 30px;
+    }
+    
+    .load-mr-btn    {
+        text-align: center;
+        margin: 10rem auto 5rem;
+        display: flex;
+        font-size: large;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    
+    .divider    {
+        border-bottom: 1px solid #b7d5ff;
+        width: 80%;
+        margin: 5rem auto;
+    }
+    
+    
+    /* *************************************************** Plugin Page **************************************************/
+    
+    .plugin-img {
+        width: 35%;
+        margin: 40px 20px 0;
+        border-radius: 10px;
+    }
+    
+    .plugin-card    {
+        background-color: #F1FCFF;
+        padding-left: 5px;
+        width: 100%;
+        height: 40vh;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(235, 235, 235);
+    }
+    
+    .owner-avatar img{
+        width: 60px;
+        border-radius: 40px;
+        margin-right: 7px;
+    }
+    
+    .plugin-title   {
+        display: inline-block;
+        font-size: 1.7rem;
+        width: 100%;
+        font-weight: 600;
+    }
+    
+    .plugin-details   {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        color: #777;
+    }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 100px;
+        left: 180px;
+        font-size: 1.5rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .plugin-btn {
+        position: absolute;
+        top: 86px;
+        left: 210px;
+        font-size: 2rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .plugin-price   {
+        position: absolute;
+        top: 40px;
+        left: 170px;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    
+    .plugin-star-icon   {
+        font-size: 1rem;
+        color: #e48705;
+        display: inline-block;
+    }
+    
+    .owner-avatar   {
+        display: block;
+    }
+    
+    .instl-num{
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    
+    .install-num    {
+        font-size: 1rem;
+        display: inline-block;
+    }
+}
+
+/* 1500px */
+
+@media (max-width: 1500px) {
+    .market-container-fluid {
+        padding: 4% 7%;
+    }
+
+    .top-nav    {
+        display: flex;
+    }
+    
+    .market-logo img {
+        display: flex;
+        justify-content: start;
+        width: 30%;
+    }
+    
+    .top-nav-title  {
+        margin: auto;
+        font-size: 2rem;
+        font-weight: 400;
+        padding-right: 100px;
+        color: #1F8CF0;
+        cursor: pointer;
+    }
+    
+    .market-paint-icon i{
+        font-size: 1.8rem;
+    }
+    
+    .market-search  {
+        margin: 5% auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .market-search input{
+        border: 1px solid #b7d5ff;
+        border-radius: 50px;
+        background: transparent;
+        width: 70%;
+        padding: 20px;
+    }
+    
+    .market-search input[type=search]{
+        padding-left: 70px;
+        color: #bbb;
+        font-size: 1rem;
+    }
+    
+    .market-search .search-icon  {
+        color: #bbb;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: 50px;
+    }
+    
+    .market-search .forward-icon {
+        color: #000;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: -50px;
+        cursor: pointer;
+    }
+    
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    
+    li.market-link {
+        color: #1F8CF0;
+        font-size: 1.2rem;
+        padding: 0 70px;
+    }
+    
+    li.market-link a{
+        color: #1F8CF0;
+        font-size: 1.2rem;
+    }
+    
+    
+    /* Products Container */
+    
+    #market-card-menu   {
+        background-color: #F1FCFF;
+        font-family: 'Mulish', sans-serif;
+        padding: 5% 3%;
+    }
+    
+    .course-card    {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(218, 218, 218);
+    }
+    
+    .card-img-top   {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card-body .course-title   {
+        display: inline-block;
+        font-size: 1rem;
+        width: 100%;
+    }
+    
+    .course-price   {
+        font-size: 1.2rem;
+        position: absolute;
+        top: 255px;
+        left: 245px;
+    }
+    
+    .card-body .course-star-icon    {
+        font-size: 1rem;
+        color: #e48705;
+    }
+    
+    .purc-num   {
+        font-size: 0.8rem;
+    }
+    
+    .purchase-num   {
+        font-weight: bold;
+    }
+    
+    .purchase-btn   {
+        position: absolute;
+        top: 316px;
+        left: 189px;
+        padding: 8px 30px;
+    }
+    
+    .first-row  {
+        margin-bottom: 30px;
+    }
+    
+    .load-mr-btn    {
+        text-align: center;
+        margin: 10rem auto 5rem;
+        display: flex;
+        font-size: large;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    
+    .divider    {
+        border-bottom: 1px solid #b7d5ff;
+        width: 80%;
+        margin: 5rem auto;
+    }
+    
+    
+    /* *************************************************** Plugin Page **************************************************/
+    
+    .plugin-img {
+        width: 35%;
+        margin: 40px 20px 0;
+        border-radius: 10px;
+    }
+    
+    .plugin-card    {
+        background-color: #F1FCFF;
+        padding-left: 5px;
+        width: 100%;
+        height: 40vh;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(235, 235, 235);
+    }
+    
+    .owner-avatar img{
+        width: 60px;
+        border-radius: 40px;
+        margin-right: 7px;
+    }
+    
+    .plugin-title   {
+        display: inline-block;
+        font-size: 1.7rem;
+        width: 100%;
+        font-weight: 600;
+    }
+    
+    .plugin-details   {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        color: #777;
+    }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 100px;
+        left: 150px;
+        font-size: 1.5rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .plugin-btn {
+        position: absolute;
+        top: 86px;
+        left: 185px;
+        font-size: 2rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+    
+    .plugin-price   {
+        position: absolute;
+        top: 40px;
+        left: 170px;
+        font-size: 2.5rem;
+        font-weight: 500;
+    }
+    
+    .plugin-star-icon   {
+        font-size: 1rem;
+        color: #e48705;
+        display: inline-block;
+    }
+    
+    .owner-avatar   {
+        display: block;
+    }
+    
+    .instl-num{
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    
+    .install-num    {
+        font-size: 1rem;
+        display: inline-block;
+    }
+}
 
 
 
@@ -11945,7 +12676,7 @@
     
     .load-mr-btn    {
         text-align: center;
-        margin: 10rem auto 0;
+        margin: 10rem auto 5rem;
         display: flex;
         font-size: large;
         font-weight: 500;
@@ -12178,7 +12909,7 @@
     
     .load-mr-btn    {
         text-align: center;
-        margin: 10rem auto 0;
+        margin: 10rem auto 5rem;
         display: flex;
         font-size: large;
         font-weight: 500;
@@ -12267,7 +12998,311 @@
         display: inline-block;
     }
 }
+
+/* 1200px */
+
+@media (max-width: 1200px) {
+
+    .market-logo img.market-main-logo   {
+        display: none;
+    }
+
+    .mark-logo-sidemenu {
+        width: 10%;
+        margin: 5rem 50%;
+    }
+
+    .market-menu-btn    {
+        color: #024dbe;
+        position: relative;
+        top: 2.5rem;
+        left: -2rem;
+    }
+
+    .sidenav {
+        display: block;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 500;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        padding-top: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(145, 145, 145, 0.2);
+      }
+      
+      .sidenav a {
+        padding: 0 100px 40px 120px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #818181;
+        display: block;
+      }
+      
+      .sidenav a:hover {
+        color: #026dac;
+      }
+      
+      .sidenav a.active {
+        color: #026dac;
+      }
+      
+      .market-closebtn {
+        position: absolute;
+        font-size: 1.5rem;
+        bottom: 57rem;
+        left: 10rem;
+      }
+
+    .market-container-fluid {
+        padding: 4% 7%;
+    }
+
+    .top-nav    {
+        display: flex;
+    }
     
+    .market-logo img {
+        display: flex;
+        justify-content: start;
+        width: 30%;
+    }
+    
+    .top-nav-title  {
+        margin: auto;
+        font-size: 1.7rem;
+        font-weight: 400;
+        padding-left: 130px;
+        color: #1F8CF0;
+        cursor: pointer;
+    }
+    
+    .market-paint-icon i{
+        font-size: 1.8rem;
+    }
+
+    div #mySidenav a.paint-icon {
+        display: none;
+    }
+    
+    .market-search  {
+        margin: 5% auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .market-search input{
+        border: 1px solid #b7d5ff;
+        border-radius: 50px;
+        background: transparent;
+        width: 80%;
+        padding: 20px;
+    }
+    
+    .market-search input[type=search]{
+        padding-left: 70px;
+        color: #bbb;
+        font-size: 1rem;
+    }
+    
+    .market-search .search-icon  {
+        color: #bbb;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: 50px;
+    }
+    
+    .market-search .forward-icon {
+        color: #000;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: -50px;
+        cursor: pointer;
+    }
+    
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    
+    li.market-link {
+        color: #1F8CF0;
+        font-size: 1.2rem;
+        padding: 0 70px;
+    }
+    
+    li.market-link a{
+        color: #1F8CF0;
+        font-size: 1.2rem;
+    }
+    
+    
+    /* Products Container */
+    
+    #market-card-menu   {
+        background-color: #F1FCFF;
+        font-family: 'Mulish', sans-serif;
+        padding: 5% 3%;
+    }
+    
+    .course-card    {
+        margin-bottom: 2rem;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(218, 218, 218);
+    }
+    
+    .card-img-top   {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card-body .course-title   {
+        display: inline-block;
+        font-size: 0.7rem;
+        width: 100%;
+    }
+    
+    .course-price   {
+        font-size: 1rem;
+        position: unset;
+    }
+    
+    .card-body .course-star-icon    {
+        font-size: 0.7rem;
+        color: #e48705;
+    }
+    
+    .purc-num   {
+        font-size: 0.8rem;
+    }
+    
+    .purchase-num   {
+        font-weight: bold;
+    }
+    
+    .purchase-btn   {
+        position: unset;
+    }
+    
+    .first-row  {
+        margin-bottom: 30px;
+    }
+    
+    .load-mr-btn    {
+        text-align: center;
+        margin: 10rem auto 5rem;
+        display: flex;
+        font-size: large;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    
+    .divider    {
+        border-bottom: 1px solid #b7d5ff;
+        width: 80%;
+        margin: 5rem auto;
+    }
+    
+    
+    /* *************************************************** Plugin Page **************************************************/
+    
+    .plugin-img {
+        width: 35%;
+        margin: 40px 20px 0;
+        border-radius: 10px;
+    }
+    
+    .plugin-card    {
+        margin-bottom: 2rem;
+        background-color: #F1FCFF;
+        padding-left: 5px;
+        width: 100%;
+        height: 90%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(235, 235, 235);
+    }
+    
+    .owner-avatar img{
+        width: 40px;
+        border-radius: 40px;
+        margin-right: 7px;
+    }
+    
+    .plugin-title   {
+        display: inline-block;
+        font-size: 1.2rem;
+        width: 100%;
+        font-weight: 600;
+    }
+    
+    .plugin-details   {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        color: #777;
+    }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 70px;
+        left: 80px;
+        padding: 10px 50px;
+        font-size: 0.7rem;
+        
+    }
+    
+    .plugin-btn {
+        position: absolute;
+        top: 70px;
+        left: 130px;
+        font-size: 1rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .plugin-btn:focus {
+        background-color: transparent;
+        outline: none;
+    }
+    
+    .plugin-price   {
+        position: absolute;
+        top: 40px;
+        left: 120px;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .plugin-star-icon   {
+        font-size: 1rem;
+        color: #e48705;
+        display: inline-block;
+    }
+    
+    .owner-avatar   {
+        display: block;
+    }
+    
+    .owner-avatar img  {
+        width: 10%;
+    }
+    .instl-num{
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    
+    .install-num    {
+        font-size: 1rem;
+        display: inline-block;
+    }
+}
 
 /* 800px */
 
@@ -12292,6 +13327,7 @@
         position: relative;
         top: 2.5rem;
         left: -2rem;
+        width: 20px;
     }
 
     .sidenav {
@@ -12456,6 +13492,7 @@
     .purchase-num   {
         font-weight: bold;
     }
+
     
     .purchase-btn   {
         position: unset;
@@ -12468,7 +13505,7 @@
     
     .load-mr-btn    {
         text-align: center;
-        margin: 10rem auto 0;
+        margin: 10rem auto 5rem;
         display: flex;
         font-size: large;
         font-weight: 500;
@@ -12519,18 +13556,21 @@
         color: #777;
     }
     
+    .plugin-btn-icon {
+        position: absolute;
+        top: 68px;
+        left: 70px;
+        padding: 10px 50px;
+        
+    }
+    
     .plugin-btn {
         position: absolute;
         top: 70px;
-        left: 100px;
+        left: 120px;
         font-size: 1rem;
         color: #1569df;
         padding: 2px 20px;
-        background-color: transparent;
-        border: none;
-    }
-
-    .plugin-btn:hover {
         background-color: transparent;
         border: none;
     }
@@ -12766,7 +13806,7 @@
     
     .load-mr-btn    {
         text-align: center;
-        margin: 10rem auto 0;
+        margin: 10rem auto 5rem;
         display: flex;
         font-size: large;
         font-weight: 500;
@@ -12816,22 +13856,20 @@
         line-height: 1rem;
         color: #777;
     }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 70px;
+        left: 80px;
+        padding: 10px 50px;
+        font-size: 0.7rem;
+        
+    }
     
     .plugin-btn {
         position: absolute;
         top: 70px;
-        left: 100px;
-        font-size: 1rem;
-        color: #1569df;
-        padding: 2px 20px;
-        background-color: transparent;
-        border: none;
-    }
-
-    .plugin-btn:hover {
-        position: absolute;
-        top: 70px;
-        left: 100px;
+        left: 130px;
         font-size: 1rem;
         color: #1569df;
         padding: 2px 20px;
@@ -12862,6 +13900,9 @@
         display: block;
     }
     
+    .owner-avatar img  {
+        width: 10%;
+    }
     .instl-num{
         font-weight: bold;
         padding-right: 5px;
@@ -12873,6 +13914,1551 @@
     }
 }
 
+/* 764px */
+
+@media (max-width: 764px) {
+
+    .market-logo img.market-main-logo   {
+        display: none;
+    }
+
+    .mark-logo-sidemenu {
+        width: 10%;
+        margin: 5rem 50%;
+    }
+
+    .market-menu-btn    {
+        color: #024dbe;
+        position: relative;
+        top: 2.5rem;
+        left: -2rem;
+    }
+
+    .sidenav {
+        display: block;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 500;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        padding-top: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(145, 145, 145, 0.2);
+      }
+      
+      .sidenav a {
+        padding: 0 100px 40px 120px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #818181;
+        display: block;
+      }
+      
+      .sidenav a:hover {
+        color: #026dac;
+      }
+      
+      .sidenav a.active {
+        color: #026dac;
+      }
+      
+      .market-closebtn {
+        position: absolute;
+        font-size: 1.5rem;
+        bottom: 57rem;
+        left: 10rem;
+      }
+
+    .market-container-fluid {
+        padding: 4% 7%;
+    }
+
+    .top-nav    {
+        display: flex;
+    }
+    
+    .market-logo img {
+        display: flex;
+        justify-content: start;
+        width: 30%;
+    }
+    
+    .top-nav-title  {
+        margin: auto;
+        font-size: 1.7rem;
+        font-weight: 400;
+        padding-left: 130px;
+        color: #1F8CF0;
+        cursor: pointer;
+    }
+    
+    .market-paint-icon i{
+        font-size: 1.8rem;
+    }
+
+    div #mySidenav a.paint-icon {
+        display: none;
+    }
+    
+    .market-search  {
+        margin: 5% auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .market-search input{
+        border: 1px solid #b7d5ff;
+        border-radius: 50px;
+        background: transparent;
+        width: 80%;
+        padding: 20px;
+    }
+    
+    .market-search input[type=search]{
+        padding-left: 70px;
+        color: #bbb;
+        font-size: 1rem;
+    }
+    
+    .market-search .search-icon  {
+        color: #bbb;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: 50px;
+    }
+    
+    .market-search .forward-icon {
+        color: #000;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: -50px;
+        cursor: pointer;
+    }
+    
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    
+    li.market-link {
+        color: #1F8CF0;
+        font-size: 1.2rem;
+        padding: 0 70px;
+    }
+    
+    li.market-link a{
+        color: #1F8CF0;
+        font-size: 1.2rem;
+    }
+    
+    
+    /* Products Container */
+    
+    #market-card-menu   {
+        background-color: #F1FCFF;
+        font-family: 'Mulish', sans-serif;
+        padding: 5% 3%;
+    }
+    
+    .course-card    {
+        margin-bottom: 2rem;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(218, 218, 218);
+    }
+    
+    .card-img-top   {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card-body .course-title   {
+        display: inline-block;
+        font-size: 0.7rem;
+        width: 100%;
+    }
+    
+    .course-price   {
+        font-size: 1rem;
+        position: unset;
+    }
+    
+    .card-body .course-star-icon    {
+        font-size: 0.7rem;
+        color: #e48705;
+    }
+    
+    .purc-num   {
+        font-size: 0.8rem;
+    }
+    
+    .purchase-num   {
+        font-weight: bold;
+    }
+    
+    .purchase-btn   {
+        position: unset;
+    }
+    
+    .first-row  {
+        margin-bottom: 30px;
+    }
+    
+    .load-mr-btn    {
+        text-align: center;
+        margin: 10rem auto 5rem;
+        display: flex;
+        font-size: large;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    
+    .divider    {
+        border-bottom: 1px solid #b7d5ff;
+        width: 80%;
+        margin: 5rem auto;
+    }
+    
+    
+    /* *************************************************** Plugin Page **************************************************/
+    
+    .plugin-img {
+        width: 35%;
+        margin: 40px 20px 0;
+        border-radius: 10px;
+    }
+    
+    .plugin-card    {
+        margin-bottom: 2rem;
+        background-color: #F1FCFF;
+        padding-left: 5px;
+        width: 100%;
+        height: 90%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(235, 235, 235);
+    }
+    
+    .owner-avatar img{
+        width: 40px;
+        border-radius: 40px;
+        margin-right: 7px;
+    }
+    
+    .plugin-title   {
+        display: inline-block;
+        font-size: 1.2rem;
+        width: 100%;
+        font-weight: 600;
+    }
+    
+    .plugin-details   {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        color: #777;
+    }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 95px;
+        left: 140px;
+        padding: 10px 50px;
+        font-size: 1rem;
+        
+    }
+    
+    .plugin-btn {
+        position: absolute;
+        top: 86px;
+        left: 200px;
+        font-size: 2rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .plugin-btn:focus {
+        background-color: transparent;
+        outline: none;
+    }
+    
+    .plugin-price   {
+        position: absolute;
+        top: 40px;
+        left: 165px;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    
+    .plugin-star-icon   {
+        font-size: 1rem;
+        color: #e48705;
+        display: inline-block;
+    }
+    
+    .owner-avatar   {
+        display: block;
+    }
+    
+    .owner-avatar img  {
+        width: 10%;
+    }
+    .instl-num{
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    
+    .install-num    {
+        font-size: 1rem;
+        display: inline-block;
+    }
+}
+
+/* 700px */
+
+@media (max-width: 700px) {
+
+    .market-logo img.market-main-logo   {
+        display: none;
+    }
+
+    .mark-logo-sidemenu {
+        width: 10%;
+        margin: 5rem 50%;
+    }
+
+    .market-menu-btn    {
+        color: #024dbe;
+        position: relative;
+        top: 2.5rem;
+        left: -2rem;
+    }
+
+    .sidenav {
+        display: block;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 500;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        padding-top: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(145, 145, 145, 0.2);
+      }
+      
+      .sidenav a {
+        padding: 0 100px 40px 120px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #818181;
+        display: block;
+      }
+      
+      .sidenav a:hover {
+        color: #026dac;
+      }
+      
+      .sidenav a.active {
+        color: #026dac;
+      }
+      
+      .market-closebtn {
+        position: absolute;
+        font-size: 1.5rem;
+        bottom: 57rem;
+        left: 10rem;
+      }
+
+    .market-container-fluid {
+        padding: 4% 7%;
+    }
+
+    .top-nav    {
+        display: flex;
+    }
+    
+    .market-logo img {
+        display: flex;
+        justify-content: start;
+        width: 30%;
+    }
+    
+    .top-nav-title  {
+        margin: auto;
+        font-size: 1.7rem;
+        font-weight: 400;
+        padding-left: 130px;
+        color: #1F8CF0;
+        cursor: pointer;
+    }
+    
+    .market-paint-icon i{
+        font-size: 1.8rem;
+    }
+
+    div #mySidenav a.paint-icon {
+        display: none;
+    }
+    
+    .market-search  {
+        margin: 5% auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .market-search input{
+        border: 1px solid #b7d5ff;
+        border-radius: 50px;
+        background: transparent;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .market-search input[type=search]{
+        padding-left: 70px;
+        color: #bbb;
+        font-size: 1rem;
+    }
+    
+    .market-search .search-icon  {
+        color: #bbb;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: 50px;
+    }
+    
+    .market-search .forward-icon {
+        color: #000;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: -50px;
+        cursor: pointer;
+    }
+    
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    
+    li.market-link {
+        color: #1F8CF0;
+        font-size: 1.2rem;
+        padding: 0 70px;
+    }
+    
+    li.market-link a{
+        color: #1F8CF0;
+        font-size: 1.2rem;
+    }
+    
+    
+    /* Products Container */
+    
+    #market-card-menu   {
+        background-color: #F1FCFF;
+        font-family: 'Mulish', sans-serif;
+        padding: 5% 3%;
+    }
+    
+    .course-card    {
+        margin-bottom: 2rem;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(218, 218, 218);
+    }
+    
+    .card-img-top   {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card-body .course-title   {
+        display: inline-block;
+        font-size: 0.7rem;
+        width: 100%;
+    }
+    
+    .course-price   {
+        font-size: 1rem;
+        position: unset;
+    }
+    
+    .card-body .course-star-icon    {
+        font-size: 0.7rem;
+        color: #e48705;
+    }
+    
+    .purc-num   {
+        font-size: 0.8rem;
+    }
+    
+    .purchase-num   {
+        font-weight: bold;
+    }
+    
+    .purchase-btn   {
+        position: unset;
+    }
+    
+    .first-row  {
+        margin-bottom: 30px;
+    }
+    
+    .load-mr-btn    {
+        text-align: center;
+        margin: 10rem auto 5rem;
+        display: flex;
+        font-size: large;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    
+    .divider    {
+        border-bottom: 1px solid #b7d5ff;
+        width: 80%;
+        margin: 5rem auto;
+    }
+    
+    
+    /* *************************************************** Plugin Page **************************************************/
+    
+    .plugin-img {
+        width: 35%;
+        margin: 40px 20px 0;
+        border-radius: 10px;
+    }
+    
+    .plugin-card    {
+        margin-bottom: 2rem;
+        background-color: #F1FCFF;
+        padding-left: 5px;
+        width: 100%;
+        height: 90%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(235, 235, 235);
+    }
+    
+    .owner-avatar img{
+        width: 40px;
+        border-radius: 40px;
+        margin-right: 7px;
+    }
+    
+    .plugin-title   {
+        display: inline-block;
+        font-size: 1.2rem;
+        width: 100%;
+        font-weight: 600;
+    }
+    
+    .plugin-details   {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        color: #777;
+    }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 80px;
+        left: 100px;
+        padding: 10px 50px;
+        font-size: 1rem;
+        
+    }
+    
+    .plugin-btn {
+        position: absolute;
+        top: 70px;
+        left: 160px;
+        font-size: 2rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .plugin-btn:focus {
+        background-color: transparent;
+        outline: none;
+    }
+    
+    .plugin-price   {
+        position: absolute;
+        top: 40px;
+        left: 165px;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .plugin-star-icon   {
+        font-size: 1rem;
+        color: #e48705;
+        display: inline-block;
+    }
+    
+    .owner-avatar   {
+        display: block;
+    }
+    
+    .owner-avatar img  {
+        width: 10%;
+    }
+    .instl-num{
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    
+    .install-num    {
+        font-size: 1rem;
+        display: inline-block;
+    }
+}
+
+/* 600px */
+
+@media (max-width: 600px) {
+
+    .market-logo img.market-main-logo   {
+        display: none;
+    }
+
+    .mark-logo-sidemenu {
+        width: 10%;
+        margin: 5rem 50%;
+    }
+
+    .market-menu-btn    {
+        color: #024dbe;
+        position: relative;
+        top: 2.5rem;
+        left: -2rem;
+    }
+
+    .sidenav {
+        display: block;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 500;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        padding-top: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(145, 145, 145, 0.2);
+      }
+      
+      .sidenav a {
+        padding: 0 100px 40px 120px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #818181;
+        display: block;
+      }
+      
+      .sidenav a:hover {
+        color: #026dac;
+      }
+      
+      .sidenav a.active {
+        color: #026dac;
+      }
+      
+      .market-closebtn {
+        position: absolute;
+        font-size: 1.5rem;
+        bottom: 57rem;
+        left: 10rem;
+      }
+
+    .market-container-fluid {
+        padding: 4% 7%;
+    }
+
+    .top-nav    {
+        display: flex;
+    }
+    
+    .market-logo img {
+        display: flex;
+        justify-content: start;
+        width: 30%;
+    }
+    
+    .top-nav-title  {
+        margin: auto;
+        font-size: 1.7rem;
+        font-weight: 400;
+        padding-left: 130px;
+        color: #1F8CF0;
+        cursor: pointer;
+    }
+    
+    .market-paint-icon i{
+        font-size: 1.8rem;
+    }
+
+    div #mySidenav a.paint-icon {
+        display: none;
+    }
+    
+    .market-search  {
+        margin: 5% auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .market-search input{
+        border: 1px solid #b7d5ff;
+        border-radius: 50px;
+        background: transparent;
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .market-search input[type=search]{
+        padding-left: 70px;
+        color: #bbb;
+        font-size: 1rem;
+    }
+    
+    .market-search .search-icon  {
+        color: #bbb;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: 50px;
+    }
+    
+    .market-search .forward-icon {
+        color: #000;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: -50px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    
+    li.market-link {
+        color: #1F8CF0;
+        font-size: 1.2rem;
+        padding: 0 70px;
+    }
+    
+    li.market-link a{
+        color: #1F8CF0;
+        font-size: 1.2rem;
+    }
+    
+    
+    /* Products Container */
+    
+    #market-card-menu   {
+        background-color: #F1FCFF;
+        font-family: 'Mulish', sans-serif;
+        padding: 5% 3%;
+    }
+    
+    .course-card    {
+        margin-bottom: 2rem;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(218, 218, 218);
+    }
+    
+    .card-img-top   {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card-body .course-title   {
+        display: inline-block;
+        font-size: 0.7rem;
+        width: 100%;
+    }
+    
+    .course-price   {
+        font-size: 1rem;
+        position: unset;
+    }
+    
+    .card-body .course-star-icon    {
+        font-size: 0.7rem;
+        color: #e48705;
+    }
+    
+    .purc-num   {
+        font-size: 0.8rem;
+    }
+    
+    .purchase-num   {
+        font-weight: bold;
+    }
+    
+    .purchase-btn   {
+        position: unset;
+    }
+    
+    .first-row  {
+        margin-bottom: 30px;
+    }
+    
+    .load-mr-btn    {
+        text-align: center;
+        margin: 10rem auto 5rem;
+        display: flex;
+        font-size: large;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    
+    .divider    {
+        border-bottom: 1px solid #b7d5ff;
+        width: 80%;
+        margin: 5rem auto;
+    }
+    
+    
+    /* *************************************************** Plugin Page **************************************************/
+    
+    .plugin-img {
+        width: 35%;
+        margin: 40px 20px 0;
+        border-radius: 10px;
+    }
+    
+    .plugin-card    {
+        margin-bottom: 2rem;
+        background-color: #F1FCFF;
+        padding-left: 5px;
+        width: 100%;
+        height: 90%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(235, 235, 235);
+    }
+    
+    .owner-avatar img{
+        width: 40px;
+        border-radius: 40px;
+        margin-right: 7px;
+    }
+    
+    .plugin-title   {
+        display: inline-block;
+        font-size: 1.2rem;
+        width: 100%;
+        font-weight: 600;
+    }
+    
+    .plugin-details   {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        color: #777;
+    }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 77px;
+        left: 80px;
+        padding: 10px 50px;
+        font-size: 1rem;
+        
+    }
+    
+    .plugin-btn {
+        position: absolute;
+        top: 70px;
+        left: 130px;
+        font-size: 1.7rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .plugin-btn:focus {
+        background-color: transparent;
+        outline: none;
+    }
+    
+    .plugin-price   {
+        position: absolute;
+        top: 40px;
+        left: 135px;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    
+    .plugin-star-icon   {
+        font-size: 1rem;
+        color: #e48705;
+        display: inline-block;
+    }
+    
+    .owner-avatar   {
+        display: block;
+    }
+    
+    .owner-avatar img  {
+        width: 10%;
+    }
+    .instl-num{
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    
+    .install-num    {
+        font-size: 1rem;
+        display: inline-block;
+    }
+}
+
+/* 564px */
+
+@media (max-width: 564px) {
+
+    .paint-icon {
+        display: none;
+    }
+
+    div #mySidenav a.paint-icon {
+        padding-left: 11rem;
+        display: block;    
+    }
+
+    .market-logo img.market-main-logo   {
+        display: none;
+    }
+
+    .mark-logo-sidemenu {
+        width: 10%;
+        margin: 5rem 50%;
+    }
+
+    .market-menu-btn    {
+        color: #024dbe;
+        position: relative;
+        top: 2rem;
+        left: -1rem;
+    }
+
+    .sidenav {
+        display: block;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 500;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        padding-top: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(145, 145, 145, 0.2);
+      }
+      
+      .sidenav a {
+        padding: 0 100px 40px 120px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #818181;
+        display: block;
+      }
+      
+      .sidenav a:hover {
+        color: #026dac;
+      }
+      
+      .sidenav a.active {
+        color: #026dac;
+      }
+      
+      .market-closebtn {
+        position: absolute;
+        font-size: 1.5rem;
+        bottom: 40rem;
+        left: 11rem;
+      }
+
+    .market-container-fluid {
+        padding: 4% 7%;
+    }
+
+    .top-nav    {
+        display: flex;
+    }
+    
+    .market-logo img {
+        display: flex;
+        justify-content: start;
+        width: 30%;
+    }
+    
+    .top-nav-title  {
+        margin: auto auto 2rem auto;
+        font-size: 1rem;
+        font-weight: 400;
+        padding-left: 100px;
+        color: #1F8CF0;
+        cursor: pointer;
+    }
+    
+    .market-paint-icon i{
+        font-size: 1.8rem;
+    }
+    
+    .market-search  {
+        margin: 5% auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .market-search input{
+        border: 1px solid #b7d5ff;
+        border-radius: 50px;
+        background: transparent;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    
+    .market-search input[type=search]{
+        padding-left: 40px;
+        color: #bbb;
+        font-size: 1rem;
+    }
+    
+    .market-search .search-icon  {
+        color: #bbb;
+        font-size: 15px;
+        position: relative;
+        top: 17px;
+        left: 35px;
+    }
+    
+    .market-search .forward-icon {
+        color: #000;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: -50px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    
+    li.market-link {
+        color: #1F8CF0;
+        font-size: 1.2rem;
+        padding: 0 70px;
+    }
+    
+    li.market-link a{
+        color: #1F8CF0;
+        font-size: 1.2rem;
+    }
+    
+    
+    /* Products Container */
+    
+    #market-card-menu   {
+        background-color: #F1FCFF;
+        font-family: 'Mulish', sans-serif;
+        padding: 5% 3%;
+    }
+    
+    .course-card    {
+        margin-bottom: 2rem;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(218, 218, 218);
+    }
+    
+    .card-img-top   {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card-body .course-title   {
+        display: inline-block;
+        font-size: 1.6rem;
+        width: 100%;
+    }
+    
+    .course-price   {
+        font-size: 2rem;
+        position: absolute;
+        top: 25rem;
+        left: 25rem;
+    }
+    
+    .card-body .course-star-icon    {
+        font-size: 1.3rem;
+        color: #e48705;
+    }
+    
+    .purc-num   {
+        font-size: 1rem;
+    }
+    
+    .purchase-num   {
+        font-weight: bold;
+    }
+    
+    .purchase-btn   {
+        position: absolute;
+        top: 30rem;
+        left: 17rem;
+        font-size: 1.2rem;
+        padding: 8px 77px;
+    }
+    
+    .first-row  {
+        margin-bottom: 30px;
+    }
+    
+    .load-mr-btn    {
+        text-align: center;
+        margin: 10rem auto 5rem;
+        display: flex;
+        font-size: large;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    
+    .divider    {
+        border-bottom: 1px solid #b7d5ff;
+        width: 80%;
+        margin: 5rem auto;
+    }
+    
+    
+    /* *************************************************** Plugin Page **************************************************/
+    
+    .plugin-img {
+        width: 35%;
+        margin: 40px 20px 0;
+        border-radius: 10px;
+    }
+    
+    .plugin-card    {
+        margin-bottom: 2rem;
+        background-color: #F1FCFF;
+        padding-left: 5px;
+        width: 100%;
+        height: 90%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(235, 235, 235);
+    }
+    
+    .owner-avatar img{
+        width: 40px;
+        border-radius: 40px;
+        margin-right: 7px;
+    }
+    
+    .plugin-title   {
+        display: inline-block;
+        font-size: 2rem;
+        width: 100%;
+        font-weight: 500;
+    }
+    
+    .plugin-details   {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        color: #777;
+    }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 102px;
+        left: 250px;
+        padding: 10px 50px;
+        font-size: 1.6rem;
+        
+    }
+    
+    .plugin-btn {
+        position: absolute;
+        top: 90px;
+        left: 320px;
+        font-size: 2.5rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .plugin-btn:focus {
+        background-color: transparent;
+        outline: none;
+    }
+    
+    .plugin-price   {
+        position: absolute;
+        top: 40px;
+        left: 300px;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+    
+    .plugin-star-icon   {
+        font-size: 1.3rem;
+        color: #e48705;
+        display: inline-block;
+    }
+    
+    .owner-avatar   {
+        display: block;
+    }
+    
+    .instl-num{
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    
+    .install-num    {
+        font-size: 1rem;
+        display: inline-block;
+    }
+}
+
+/* 500px */
+
+@media (max-width: 500px) {
+
+    .paint-icon {
+        display: none;
+    }
+
+    div #mySidenav a.paint-icon {
+        padding-left: 11rem;
+        display: block;    
+    }
+
+    .market-logo img.market-main-logo   {
+        display: none;
+    }
+
+    .mark-logo-sidemenu {
+        width: 10%;
+        margin: 5rem 50%;
+    }
+
+    .market-menu-btn    {
+        color: #024dbe;
+        position: relative;
+        top: 2rem;
+        left: -1rem;
+    }
+
+    .sidenav {
+        display: block;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 500;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        padding-top: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(145, 145, 145, 0.2);
+      }
+      
+      .sidenav a {
+        padding: 0 100px 40px 120px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #818181;
+        display: block;
+      }
+      
+      .sidenav a:hover {
+        color: #026dac;
+      }
+      
+      .sidenav a.active {
+        color: #026dac;
+      }
+      
+      .market-closebtn {
+        position: absolute;
+        font-size: 1.5rem;
+        bottom: 40rem;
+        left: 11rem;
+      }
+
+    .market-container-fluid {
+        padding: 4% 7%;
+    }
+
+    .top-nav    {
+        display: flex;
+    }
+    
+    .market-logo img {
+        display: flex;
+        justify-content: start;
+        width: 30%;
+    }
+    
+    .top-nav-title  {
+        margin: auto auto 2rem auto;
+        font-size: 1rem;
+        font-weight: 400;
+        padding-left: 100px;
+        color: #1F8CF0;
+        cursor: pointer;
+    }
+    
+    .market-paint-icon i{
+        font-size: 1.8rem;
+    }
+    
+    .market-search  {
+        margin: 5% auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .market-search input{
+        border: 1px solid #b7d5ff;
+        border-radius: 50px;
+        background: transparent;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    
+    .market-search input[type=search]{
+        padding-left: 40px;
+        color: #bbb;
+        font-size: 1rem;
+    }
+    
+    .market-search .search-icon  {
+        color: #bbb;
+        font-size: 15px;
+        position: relative;
+        top: 17px;
+        left: 35px;
+    }
+    
+    .market-search .forward-icon {
+        color: #000;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: -50px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    
+    li.market-link {
+        color: #1F8CF0;
+        font-size: 1.2rem;
+        padding: 0 70px;
+    }
+    
+    li.market-link a{
+        color: #1F8CF0;
+        font-size: 1.2rem;
+    }
+    
+    
+    /* Products Container */
+    
+    #market-card-menu   {
+        background-color: #F1FCFF;
+        font-family: 'Mulish', sans-serif;
+        padding: 5% 3%;
+    }
+    
+    .course-card    {
+        margin-bottom: 2rem;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(218, 218, 218);
+    }
+    
+    .card-img-top   {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card-body .course-title   {
+        display: inline-block;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    
+    .course-price   {
+        font-size: 2rem;
+        position: absolute;
+        top: 22rem;
+        left: 20rem;
+    }
+    
+    .card-body .course-star-icon    {
+        font-size: 1.3rem;
+        color: #e48705;
+    }
+    
+    .purc-num   {
+        font-size: 1rem;
+    }
+    
+    .purchase-num   {
+        font-weight: bold;
+    }
+    
+    .purchase-btn   {
+        position: absolute;
+        top: 26.5rem;
+        left: 15rem;
+        font-size: 1.2rem;
+        padding: 8px 57px;
+    }
+    
+    .first-row  {
+        margin-bottom: 30px;
+    }
+    
+    .load-mr-btn    {
+        text-align: center;
+        margin: 10rem auto 5rem;
+        display: flex;
+        font-size: large;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    
+    .divider    {
+        border-bottom: 1px solid #b7d5ff;
+        width: 80%;
+        margin: 5rem auto;
+    }
+    
+    
+    /* *************************************************** Plugin Page **************************************************/
+    
+    .plugin-img {
+        width: 35%;
+        margin: 40px 20px 0;
+        border-radius: 10px;
+    }
+    
+    .plugin-card    {
+        margin-bottom: 2rem;
+        background-color: #F1FCFF;
+        padding-left: 5px;
+        width: 100%;
+        height: 90%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(235, 235, 235);
+    }
+    
+    .owner-avatar img{
+        width: 40px;
+        border-radius: 40px;
+        margin-right: 7px;
+    }
+    
+    .plugin-title   {
+        display: inline-block;
+        font-size: 2rem;
+        width: 100%;
+        font-weight: 500;
+    }
+    
+    .plugin-details   {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        color: #777;
+    }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 90px;
+        left: 200px;
+        padding: 10px 50px;
+        font-size: 1.2rem;
+        
+    }
+    
+    .plugin-btn {
+        position: absolute;
+        top: 80px;
+        left: 270px;
+        font-size: 2rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .plugin-btn:focus {
+        background-color: transparent;
+        outline: none;
+    }
+    
+    .plugin-price   {
+        position: absolute;
+        top: 40px;
+        left: 250px;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+    .plugin-star-icon   {
+        font-size: 1.3rem;
+        color: #e48705;
+        display: inline-block;
+    }
+    
+    .owner-avatar   {
+        display: block;
+    }
+    
+    .instl-num{
+        font-size: 1.3rem;
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    
+    .install-num    {
+        font-size: 1rem;
+        display: inline-block;
+    }
+}
 
 /* 414px */
 
@@ -13083,7 +15669,7 @@
     
     .load-mr-btn    {
         text-align: center;
-        margin: 10rem auto 0;
+        margin: 10rem auto 5rem;
         display: flex;
         font-size: large;
         font-weight: 500;
@@ -13133,11 +15719,20 @@
         line-height: 1rem;
         color: #777;
     }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 98px;
+        left: 160px;
+        padding: 10px 50px;
+        font-size: 1rem;
+        
+    }
     
     .plugin-btn {
         position: absolute;
         top: 90px;
-        left: 190px;
+        left: 220px;
         font-size: 1.7rem;
         color: #1569df;
         padding: 2px 20px;
@@ -13401,7 +15996,7 @@
     
     .load-mr-btn    {
         text-align: center;
-        margin: 10rem auto 0;
+        margin: 10rem auto 5rem;
         display: flex;
         font-size: large;
         font-weight: 500;
@@ -13451,11 +16046,20 @@
         line-height: 1rem;
         color: #777;
     }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 98px;
+        left: 130px;
+        padding: 10px 50px;
+        font-size: 1rem;
+        
+    }
     
     .plugin-btn {
         position: absolute;
         top: 90px;
-        left: 150px;
+        left: 190px;
         font-size: 1.7rem;
         color: #1569df;
         padding: 2px 20px;
@@ -13464,6 +16068,12 @@
     }
 
     .plugin-btn:hover {
+        position: absolute;
+        top: 70px;
+        left: 100px;
+        font-size: 1rem;
+        color: #1569df;
+        padding: 2px 20px;
         background-color: transparent;
         border: none;
     }
@@ -13530,6 +16140,7 @@
         position: relative;
         top: 2rem;
         left: -1rem;
+        width: 20px;
     }
 
     .sidenav {
@@ -13712,7 +16323,7 @@
     
     .load-mr-btn    {
         text-align: center;
-        margin: 10rem auto 0;
+        margin: 10rem auto 5rem;
         display: flex;
         font-size: large;
         font-weight: 500;
@@ -13762,19 +16373,23 @@
         line-height: 1rem;
         color: #777;
     }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 92px;
+        left: 140px;
+        padding: 10px 50px;
+        font-size: 1rem;
+        
+    }
     
     .plugin-btn {
         position: absolute;
-        top: 90px;
-        left: 150px;
+        top: 85px;
+        left: 200px;
         font-size: 1.7rem;
         color: #1569df;
         padding: 2px 20px;
-        background-color: transparent;
-        border: none;
-    }
-
-    .plugin-btn:hover {
         background-color: transparent;
         border: none;
     }
@@ -13788,6 +16403,323 @@
         position: absolute;
         top: 40px;
         left: 170px;
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+    
+    .plugin-star-icon   {
+        font-size: 1rem;
+        color: #e48705;
+        display: inline-block;
+    }
+    
+    .owner-avatar   {
+        display: block;
+    }
+    
+    .instl-num{
+        font-weight: bold;
+        padding-right: 5px;
+    }
+    
+    .install-num    {
+        font-size: 1rem;
+        display: inline-block;
+    }
+}
+
+
+/* 320px */
+
+@media (max-width: 320px) {
+
+    .paint-icon {
+        display: none;
+    }
+
+    div #mySidenav a.paint-icon {
+        padding-left: 11rem;
+        
+    }
+
+    .market-logo img.market-main-logo   {
+        display: none;
+    }
+
+    .mark-logo-sidemenu {
+        width: 10%;
+        margin: 5rem 50%;
+    }
+
+    .market-menu-btn    {
+        color: #024dbe;
+        position: relative;
+        top: 2rem;
+        left: -1rem;
+        width: 20px;
+    }
+
+    .sidenav {
+        display: block;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 500;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        background-color: rgb(255, 255, 255);
+        overflow-x: hidden;
+        padding-top: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(145, 145, 145, 0.2);
+      }
+      
+      .sidenav a {
+        padding: 0 100px 40px 120px;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #818181;
+        display: block;
+      }
+      
+      .sidenav a:hover {
+        color: #026dac;
+      }
+      
+      .sidenav a.active {
+        color: #026dac;
+      }
+      
+      .market-closebtn {
+        position: absolute;
+        font-size: 1.5rem;
+        bottom: 33rem;
+        left: 8rem;
+      }
+
+    .market-container-fluid {
+        padding: 4% 7%;
+    }
+
+    .top-nav    {
+        display: flex;
+    }
+    
+    .market-logo img {
+        display: flex;
+        justify-content: start;
+        width: 30%;
+    }
+    
+    .top-nav-title  {
+        margin: auto auto 2rem auto;
+        font-size: 1rem;
+        font-weight: 400;
+        padding-left: 100px;
+        color: #1F8CF0;
+        cursor: pointer;
+    }
+    
+    .market-paint-icon i{
+        font-size: 1.8rem;
+    }
+    
+    .market-search  {
+        margin: 5% auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .market-search input{
+        border: 1px solid #b7d5ff;
+        border-radius: 50px;
+        background: transparent;
+        width: 100%;
+        padding: 10px 20px;
+    }
+    
+    .market-search input[type=search]{
+        padding-left: 40px;
+        color: #bbb;
+        font-size: 1rem;
+    }
+    
+    .market-search .search-icon  {
+        color: #bbb;
+        font-size: 15px;
+        position: relative;
+        top: 17px;
+        left: 35px;
+    }
+    
+    .market-search .forward-icon {
+        color: #000;
+        font-size: 20px;
+        position: relative;
+        top: 23px;
+        left: -50px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .navbar-nav.navbar-center {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+    
+    li.market-link {
+        color: #1F8CF0;
+        font-size: 1.2rem;
+        padding: 0 70px;
+    }
+    
+    li.market-link a{
+        color: #1F8CF0;
+        font-size: 1.2rem;
+    }
+    
+    
+    /* Products Container */
+    
+    #market-card-menu   {
+        background-color: #F1FCFF;
+        font-family: 'Mulish', sans-serif;
+        padding: 5% 3%;
+    }
+    
+    .course-card    {
+        margin-bottom: 2rem;
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(218, 218, 218);
+    }
+    
+    .card-img-top   {
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card-body .course-title   {
+        display: inline-block;
+        font-size: 0.8rem;
+        width: 100%;
+    }
+    
+    .course-price   {
+        font-size: 1.3rem;
+        position: absolute;
+        top: 14.8rem;
+        left: 13rem;
+    }
+    
+    .card-body .course-star-icon    {
+        font-size: 1rem;
+        color: #e48705;
+    }
+    
+    .purc-num   {
+        font-size: 0.8rem;
+    }
+    
+    .purchase-num   {
+        font-weight: bold;
+    }
+    
+    .purchase-btn   {
+        position: absolute;
+        top: 18.8rem;
+        left: 10.5rem;
+        font-size: 1.2rem;
+        padding: 8px 13px;
+    }
+    
+    .first-row  {
+        margin-bottom: 30px;
+    }
+    
+    .load-mr-btn    {
+        text-align: center;
+        margin: 10rem auto 5rem;
+        display: flex;
+        font-size: large;
+        font-weight: 500;
+        padding: 10px 30px;
+    }
+    
+    .divider    {
+        border-bottom: 1px solid #b7d5ff;
+        width: 80%;
+        margin: 5rem auto;
+    }
+    
+    
+    /* *************************************************** Plugin Page **************************************************/
+    
+    .plugin-img {
+        width: 35%;
+        margin: 40px 20px 0;
+        border-radius: 10px;
+    }
+    
+    .plugin-card    {
+        margin-bottom: 2rem;
+        background-color: #F1FCFF;
+        padding-left: 5px;
+        width: 100%;
+        height: 90%;
+        border-radius: 20px;
+        box-shadow: 1px 3px 10px rgb(235, 235, 235);
+    }
+    
+    .owner-avatar img{
+        width: 40px;
+        border-radius: 40px;
+        margin-right: 7px;
+    }
+    
+    .plugin-title   {
+        display: inline-block;
+        font-size: 1.2rem;
+        width: 100%;
+        font-weight: 600;
+    }
+    
+    .plugin-details   {
+        font-size: 0.7rem;
+        line-height: 1rem;
+        color: #777;
+    }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 88px;
+        left: 110px;
+        padding: 10px 50px;
+        font-size: 1rem;
+        
+    }
+    
+    .plugin-btn {
+        position: absolute;
+        top: 80px;
+        left: 170px;
+        font-size: 1.7rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .plugin-btn:focus {
+        background-color: transparent;
+        outline: none;
+    }
+    
+    .plugin-price   {
+        position: absolute;
+        top: 40px;
+        left: 140px;
         font-size: 2.5rem;
         font-weight: 600;
     }

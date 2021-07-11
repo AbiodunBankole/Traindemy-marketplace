@@ -1288,11 +1288,13 @@ li.market-link a{
     font-weight: bold;
 }
 
+
 .purchase-btn   {
     position: absolute;
     top: 385px;
     left: 220px;
     padding: 10px 50px;
+    cursor: pointer;
 }
 
 .first-row  {
@@ -1301,7 +1303,7 @@ li.market-link a{
 
 .load-mr-btn    {
     text-align: center;
-    margin: 10rem auto 0;
+    margin: 10rem auto;
     display: flex;
     font-size: large;
     font-weight: 500;
@@ -1351,11 +1353,20 @@ li.market-link a{
     color: #777;
 }
 
+.plugin-btn-icon {
+    position: absolute;
+    top: 95px;
+    left: 170px;
+    padding: 10px 50px;
+    font-size: 1rem;
+}
+
+
 .plugin-btn {
     position: absolute;
-    top: 100px;
-    left: 200px;
-    font-size: 1.4rem;
+    top: 90px;
+    left: 230px;
+    font-size: 1.6rem;
     color: #1569df;
     padding: 2px 20px;
     background-color: transparent;
@@ -1389,11 +1400,362 @@ li.market-link a{
     display: inline-block;
 }
 
+/* Footer */
+
+#marketplace-footer{
+    background-color: rgb(0, 0, 0);
+    padding: 3% 7% !important;
+    color: #fff;
+    text-align: center;
+}
+
+.market-brand   {
+    display: block;
+    width: 100%;
+}
+
+.market-brand  img.market-footer-logo {
+    display: block;
+    width: 15% !important;
+    margin: 2% auto 4% !important;
+}
+
+.market-brand  input {
+    display: block;
+    width: 50% !important;
+    margin: 2% auto !important;
+    padding: 15px !important;
+    border-radius: 5px;
+    border: 0;
+    font-size: 1.3rem;
+}
+
+.market-subscribe-btn   {
+    padding: 15px;
+    width: 50% !important;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    margin: 0 auto 4% !important;
+}
+
+.market-social-media-icons  {
+    font-size: 2rem !important;
+}
+
+.market-social-media-icons a {
+    color: #fff;
+}
+
+.market-social-media-icons a:hover {
+    color: #1569df;
+}
+
+.market-social-media-icons i {
+    padding: 0 20px !important;
+}
+
+.market-legal   {
+    display: inline-block;
+    justify-content: center;
+    padding: 3% 7% !important;
+}
+
+.market-legal  li{
+    display: inline-block;
+    margin: 0 60px;
+}
+
+.market-legal  li a{
+    display: inline-block;
+    color: #fff;
+}
+
+.market-legal  li a:hover{
+    display: inline-block;
+    color: #1569df;
+}
 
 
+.market-legal  li a{
+    font-size: 1rem;
+}
+
+.market-copyright   {
+    color: #777;
+}
 
 
+/**************************************************************** Media Query ***********************************************/
 
+/* 375px */
+
+@media (max-width: 375px) {
+        /* Footer */
+
+#marketplace-footer{
+    background-color: rgb(0, 0, 0);
+    padding: 3% 7% !important;
+    color: #fff;
+    text-align: center;
+}
+
+.market-brand   {
+    display: block;
+    width: 100%;
+}
+
+.market-brand  img.market-footer-logo {
+    display: block;
+    width: 50% !important;
+    margin: 10% auto 20% !important;
+}
+
+.market-brand  input {
+    display: block;
+    width: 100% !important;
+    margin: 2% auto !important;
+    padding: 10px !important;
+    border-radius: 5px;
+    border: 0;
+    font-size: 1.3rem;
+}
+
+.market-subscribe-btn   {
+    padding: 10px;
+    width: 100% !important;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    margin: 2% auto  !important;
+}
+
+.market-social-media-icons  {
+    font-size: 1rem !important;
+    margin: 10% auto;
+}
+
+.market-social-media-icons a {
+    color: #fff;
+}
+
+.market-social-media-icons a:hover {
+    color: #1569df;
+}
+
+.market-social-media-icons i {
+    padding: 0 20px !important;
+}
+
+.market-legal   {
+    display: inline-block;
+    justify-content: center;
+    padding: 3% 7% !important;
+}
+
+.market-legal  li{
+    display: inline-block;
+    margin: 10px 60px;
+}
+
+.market-legal  li a{
+    display: inline-block;
+    color: #fff;
+}
+
+.market-legal  li a:hover{
+    display: inline-block;
+    color: #1569df;
+}
+
+
+.market-legal  li a{
+    font-size: 1rem;
+}
+
+.market-copyright   {
+    color: #777;
+}
+
+}
+
+/* 414px */
+
+@media (max-width: 414px) {
+    /* Footer */
+
+#marketplace-footer{
+background-color: rgb(0, 0, 0);
+padding: 3% 7% !important;
+color: #fff;
+text-align: center;
+}
+
+.market-brand   {
+display: block;
+width: 100%;
+}
+
+.market-brand  img.market-footer-logo {
+display: block;
+width: 50% !important;
+margin: 10% auto 20% !important;
+}
+
+.market-brand  input {
+display: block;
+width: 100% !important;
+margin: 2% auto !important;
+padding: 10px !important;
+border-radius: 5px;
+border: 0;
+font-size: 1.3rem;
+}
+
+.market-subscribe-btn   {
+padding: 10px;
+width: 100% !important;
+border-radius: 5px;
+font-size: 1.3rem;
+margin: 2% auto  !important;
+}
+
+.market-social-media-icons  {
+font-size: 1rem !important;
+margin: 10% auto;
+}
+
+.market-social-media-icons a {
+color: #fff;
+}
+
+.market-social-media-icons a:hover {
+color: #1569df;
+}
+
+.market-social-media-icons i {
+padding: 0 20px !important;
+}
+
+.market-legal   {
+display: inline-block;
+justify-content: center;
+padding: 3% 7% !important;
+}
+
+.market-legal  li{
+display: inline-block;
+margin: 10px 60px;
+}
+
+.market-legal  li a{
+display: inline-block;
+color: #fff;
+}
+
+.market-legal  li a:hover{
+display: inline-block;
+color: #1569df;
+}
+
+
+.market-legal  li a{
+font-size: 1rem;
+}
+
+.market-copyright   {
+color: #777;
+}
+
+}
+
+/* 768px */
+
+@media (max-width: 768px) {
+    /* Footer */
+
+#marketplace-footer{
+background-color: rgb(0, 0, 0);
+padding: 3% 7% !important;
+color: #fff;
+text-align: center;
+}
+
+.market-brand   {
+display: block;
+width: 100%;
+}
+
+.market-brand  img.market-footer-logo {
+display: block;
+width: 50% !important;
+margin: 10% auto !important;
+}
+
+.market-brand  input {
+display: block;
+width: 100% !important;
+margin: 2% auto !important;
+padding: 10px !important;
+border-radius: 5px;
+border: 0;
+font-size: 1.3rem;
+}
+
+.market-subscribe-btn   {
+padding: 10px;
+width: 100% !important;
+border-radius: 5px;
+font-size: 1.3rem;
+margin: auto  !important;
+}
+
+.market-social-media-icons  {
+font-size: 1rem !important;
+margin: 10% auto;
+}
+
+.market-social-media-icons a {
+color: #fff;
+}
+
+.market-social-media-icons a:hover {
+color: #1569df;
+}
+
+.market-social-media-icons i {
+padding: 0 20px !important;
+}
+
+.market-legal   {
+display: inline-block;
+justify-content: center;
+padding: 3% 7% !important;
+}
+
+.market-legal  li{
+display: inline-block;
+margin: 10px 60px;
+}
+
+.market-legal  li a{
+display: inline-block;
+color: #fff;
+}
+
+.market-legal  li a:hover{
+display: inline-block;
+color: #1569df;
+}
+
+
+.market-legal  li a{
+font-size: 1rem;
+}
+
+.market-copyright   {
+color: #777;
+}
+
+}
 
 /*********************************************************************** Animation kits***************************************************/
 
