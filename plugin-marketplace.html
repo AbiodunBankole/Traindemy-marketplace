@@ -19,7 +19,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;700;800&display=swap"
+        rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&display=swap"
@@ -54,8 +55,8 @@
     <Section id="market-header">
 
         <div class="market-container-fluid">
-            <span class="market-menu-btn userdash-menu-btn" style="font-size:30px; cursor:pointer" onclick="openNav()"><i
-                    class="fas fa-bars"></i></span>
+            <span class="market-menu-btn userdash-menu-btn" style="font-size:30px; cursor:pointer"
+                onclick="openNav()"><i class="fas fa-bars"></i></span>
             <div class="top-nav">
                 <a class="market-logo" href="#">
                     <img class="market-main-logo" src="images/dash-logo.png" alt="traindemy brand logo">
@@ -74,9 +75,10 @@
 
             <!-- Start of navigation bar -->
             <div id="mySidenav" class="sidenav">
-                <a href="javascript:void(0)" class="market-closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+                <a href="javascript:void(0)" class="market-closebtn" onclick="closeNav()"><i
+                        class="fas fa-times"></i></a>
                 <img class="mark-logo-sidemenu" src="images/dash-logo.png" alt="traindemy brand logo">
-                <a class="market-a nav-link active" href="index.html">All</a>
+                <!-- <a class="market-a nav-link active" href="marketplace.html">All</a> -->
                 <a class="nav-link active" href="plugin-marketplace.html">Plugins</a>
                 <a class="nav-link" href="courses.html">Courses</a>
                 <a href="#" class="paint-icon market-paint-icon"><i class="fas fa-palette"></i></a>
@@ -86,9 +88,9 @@
             <nav class="navbar navbar-expand-lg">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav navbar-center">
-                        <li class="market-link nav-item">
-                            <a class="market-a nav-link" href="index.html">All</a>
-                        </li>
+                        <!-- <li class="market-link nav-item">
+                            <a class="market-a nav-link" href="marketplace.html">All</a>
+                        </li> -->
                         <li class="market-link nav-item">
                             <a class="nav-link active" href="plugin-marketplace.html">Plugins</a>
                         </li>
@@ -97,7 +99,7 @@
                         </li>
                     </ul>
                 </div>
-            </nav> 
+            </nav>
             <!-- End of navigation bar-->
 
         </div>
@@ -128,7 +130,10 @@
                             <img src="images/dev-plugin.png" alt="This is the Developer who owns this plugin">
                             <span>By Kemi Adegbola</span>
                         </span>
-                        <button class="btn btn-primary plugin-btn"><i class="fas fa-download"></i> Install</button>
+                        <a href="#">
+                            <i class="plugin-btn-icon fas fa-download"></i>
+                            <p class="plugin-btn">Install</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -152,7 +157,10 @@
                             <img src="images/dev-plugin.png" alt="This is the Developer who owns this plugin">
                             <span>By Kemi Adegbola</span>
                         </span>
-                        <button class="btn btn-primary plugin-btn"><i class="fas fa-download"></i> Install</button>
+                        <a href="#">
+                            <i class="plugin-btn-icon fas fa-download"></i>
+                            <p class="plugin-btn">Install</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -176,7 +184,10 @@
                             <img src="images/dev-plugin.png" alt="This is the Developer who owns this plugin">
                             <span>By Kemi Adegbola</span>
                         </span>
-                        <button class="btn btn-primary plugin-btn"><i class="fas fa-download"></i> Install</button>
+                        <a href="#">
+                            <i class="plugin-btn-icon fas fa-download"></i>
+                            <p class="plugin-btn">Install</p>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -200,12 +211,41 @@
                             <img src="images/dev-plugin.png" alt="This is the Developer who owns this plugin">
                             <span>By Kemi Adegbola</span>
                         </span>
-                        <button class="btn btn-primary plugin-btn"><i class="fas fa-download"></i> Install</button>
+                        <a href="#">
+                            <i class="plugin-btn-icon fas fa-download"></i>
+                            <p class="plugin-btn">Install</p>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
 
+    </section>
+
+    <!-- Footer -->
+    <section id="marketplace-footer">
+        <footer class="marketplace-footer">
+            <div class="market-brand">
+                <img class="market-footer-logo" src="images/logo.png" alt="the company brand logo">
+                <input class="market-footer-input" id="email" type="email" placeholder="Enter your email">
+                <button class="btn btn-primary btn-large market-subscribe-btn">Subscribe now</button>
+            </div>
+            <div class="market-social-media-icons">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="market-legal">
+                <ul class="market-footer-lst">
+                    <li class="mf-link"><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Condition</a></li>
+                </ul>
+            </div>
+
+            <!-- copyright texts -->
+            <p class="market-copyright">All rights reserved &copy; Traindemy Company Limited</p>
+        </footer>
     </section>
 
     <!-- Plugin -->
