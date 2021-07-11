@@ -11915,6 +11915,13 @@
         top: 280px;
         left: 240px;
     }
+
+    .course-market-duration {
+        font-size: 1rem;
+        position: absolute;
+        top: 310px;
+        left: 264px;
+    }
     
     .card-body .course-star-icon    {
         font-size: 1rem;
@@ -11994,7 +12001,7 @@
 
     .plugin-btn-icon {
         position: absolute;
-        top: 100px;
+        top: 110px;
         left: 200px;
         font-size: 1.5rem;
         color: #1569df;
@@ -12005,7 +12012,7 @@
     
     .plugin-btn {
         position: absolute;
-        top: 86px;
+        top: 96px;
         left: 240px;
         font-size: 2rem;
         color: #1569df;
@@ -12020,6 +12027,13 @@
         left: 200px;
         font-size: 3rem;
         font-weight: 500;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 85px;
+        left: 285px;
+        font-weight: 600;
     }
     
     .plugin-star-icon   {
@@ -12159,6 +12173,13 @@
         top: 270px;
         left: 240px;
     }
+
+    .course-market-duration {
+        font-size: 1rem;
+        position: absolute;
+        top: 296px;
+        left: 250px;
+    }
     
     .card-body .course-star-icon    {
         font-size: 1rem;
@@ -12238,7 +12259,7 @@
 
     .plugin-btn-icon {
         position: absolute;
-        top: 100px;
+        top: 110px;
         left: 180px;
         font-size: 1.5rem;
         color: #1569df;
@@ -12249,7 +12270,7 @@
     
     .plugin-btn {
         position: absolute;
-        top: 86px;
+        top: 96px;
         left: 210px;
         font-size: 2rem;
         color: #1569df;
@@ -12264,6 +12285,13 @@
         left: 170px;
         font-size: 3rem;
         font-weight: 500;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 90px;
+        left: 255px;
+        font-weight: 600;
     }
     
     .plugin-star-icon   {
@@ -12403,6 +12431,13 @@
         top: 255px;
         left: 245px;
     }
+
+    .course-market-duration {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 276px;
+        left: 245px;
+    }
     
     .card-body .course-star-icon    {
         font-size: 1rem;
@@ -12509,6 +12544,13 @@
         font-size: 2.5rem;
         font-weight: 500;
     }
+
+    .market-duration    {
+        position: absolute;
+        top: 80px;
+        left: 230px;
+        font-weight: 600;
+    }
     
     .plugin-star-icon   {
         font-size: 1rem;
@@ -12530,7 +12572,6 @@
         display: inline-block;
     }
 }
-
 
 
 /* 1440px */
@@ -12649,6 +12690,13 @@
         top: 245px;
         left: 190px;
     }
+
+    .course-market-duration {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 275px;
+        left: 220px;
+    }
     
     .card-body .course-star-icon    {
         font-size: 1rem;
@@ -12725,16 +12773,31 @@
         line-height: 1rem;
         color: #777;
     }
+
+    .plugin-btn-icon {
+        position: absolute;
+        top: 90px;
+        left: 120px;
+        padding: 10px 50px;
+        font-size: 1rem;
+    }
     
     .plugin-btn {
         position: absolute;
-        top: 80px;
-        left: 150px;
-        font-size: 1.4rem;
+        top: 90px;
+        left: 175px;
+        font-size: 1.2rem;
         color: #1569df;
         padding: 2px 20px;
         background-color: transparent;
         border: none;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 75px;
+        left: 182px;
+        font-weight: 600;
     }
     
     .plugin-price   {
@@ -12883,6 +12946,13 @@
         left: 180px;
     }
     
+    .course-market-duration {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 240px;
+        left: 200px;
+    }
+
     .card-body .course-star-icon    {
         font-size: 1rem;
         color: #e48705;
@@ -12896,6 +12966,17 @@
         font-weight: bold;
     }
     
+    .plugin-btn-icon {
+        position: absolute;
+        top: 90px;
+        left: 125px;
+        font-size: 1rem;
+        color: #1569df;
+        padding: 2px 20px;
+        background-color: transparent;
+        border: none;
+    }
+
     .purchase-btn   {
         position: absolute;
         top: 285px;
@@ -12974,8 +13055,16 @@
         position: absolute;
         top: 40px;
         left: 150px;
-        font-size: 2rem;
+        font-size: 1.7rem;
         font-weight: 500;
+    }
+    
+
+    .market-duration    {
+        position: absolute;
+        top: 69px;
+        left: 168px;
+        font-weight: 600;
     }
     
     .plugin-star-icon   {
@@ -13001,7 +13090,7 @@
 
 /* 1200px */
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) {    
 
     .market-logo img.market-main-logo   {
         display: none;
@@ -13172,6 +13261,12 @@
         font-size: 1rem;
         position: unset;
     }
+
+    .course-market-duration {
+        font-size: 0.8rem;
+        position: unset;
+        display: block;
+    }
     
     .card-body .course-star-icon    {
         font-size: 0.7rem;
@@ -13249,7 +13344,7 @@
 
     .plugin-btn-icon {
         position: absolute;
-        top: 70px;
+        top: 80px;
         left: 80px;
         padding: 10px 50px;
         font-size: 0.7rem;
@@ -13258,7 +13353,7 @@
     
     .plugin-btn {
         position: absolute;
-        top: 70px;
+        top: 80px;
         left: 130px;
         font-size: 1rem;
         color: #1569df;
@@ -13278,6 +13373,13 @@
         left: 120px;
         font-size: 1.5rem;
         font-weight: 500;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 62px;
+        left: 130px;
+        font-weight: 600;
     }
     
     .plugin-star-icon   {
@@ -13479,6 +13581,13 @@
         font-size: 1.5rem;
         position: unset;
     }
+
+    .course-market-duration {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 272px;
+        left: 110px;
+    }
     
     .card-body .course-star-icon    {
         font-size: 1rem;
@@ -13558,7 +13667,7 @@
     
     .plugin-btn-icon {
         position: absolute;
-        top: 68px;
+        top: 80px;
         left: 70px;
         padding: 10px 50px;
         
@@ -13566,7 +13675,7 @@
     
     .plugin-btn {
         position: absolute;
-        top: 70px;
+        top: 80px;
         left: 120px;
         font-size: 1rem;
         color: #1569df;
@@ -13579,12 +13688,19 @@
         background-color: transparent;
         outline: none;
     }
+
+    .market-duration    {
+        position: absolute;
+        top: 65px;
+        left: 125px;
+        font-weight: 600;
+    }
     
     .plugin-price   {
         position: absolute;
         top: 40px;
         left: 120px;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-weight: 500;
     }
     
@@ -13782,6 +13898,12 @@
         font-size: 1rem;
         position: unset;
     }
+
+    .course-market-duration {
+        font-size: 0.8rem;
+        position: unset;
+        display: block;
+    }
     
     .card-body .course-star-icon    {
         font-size: 0.7rem;
@@ -13859,7 +13981,7 @@
 
     .plugin-btn-icon {
         position: absolute;
-        top: 70px;
+        top: 80px;
         left: 80px;
         padding: 10px 50px;
         font-size: 0.7rem;
@@ -13868,13 +13990,20 @@
     
     .plugin-btn {
         position: absolute;
-        top: 70px;
+        top: 80px;
         left: 130px;
         font-size: 1rem;
         color: #1569df;
         padding: 2px 20px;
         background-color: transparent;
         border: none;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 65px;
+        left: 132px;
+        font-weight: 600;
     }
 
     .plugin-btn:focus {
@@ -14164,7 +14293,7 @@
 
     .plugin-btn-icon {
         position: absolute;
-        top: 95px;
+        top: 110px;
         left: 140px;
         padding: 10px 50px;
         font-size: 1rem;
@@ -14173,7 +14302,7 @@
     
     .plugin-btn {
         position: absolute;
-        top: 86px;
+        top: 96px;
         left: 200px;
         font-size: 2rem;
         color: #1569df;
@@ -14193,6 +14322,13 @@
         left: 165px;
         font-size: 3rem;
         font-weight: 500;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 85px;
+        left: 250px;
+        font-weight: 600;
     }
     
     .plugin-star-icon   {
@@ -14272,7 +14408,7 @@
       .market-closebtn {
         position: absolute;
         font-size: 1.5rem;
-        bottom: 57rem;
+        top: 2rem;
         left: 10rem;
       }
 
@@ -14469,7 +14605,7 @@
 
     .plugin-btn-icon {
         position: absolute;
-        top: 80px;
+        top: 90px;
         left: 100px;
         padding: 10px 50px;
         font-size: 1rem;
@@ -14478,7 +14614,7 @@
     
     .plugin-btn {
         position: absolute;
-        top: 70px;
+        top: 80px;
         left: 160px;
         font-size: 2rem;
         color: #1569df;
@@ -14498,6 +14634,13 @@
         left: 165px;
         font-size: 2rem;
         font-weight: 500;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 68px;
+        left: 200px;
+        font-weight: 600;
     }
     
     .plugin-star-icon   {
@@ -14775,7 +14918,7 @@
 
     .plugin-btn-icon {
         position: absolute;
-        top: 77px;
+        top: 87px;
         left: 80px;
         padding: 10px 50px;
         font-size: 1rem;
@@ -14784,7 +14927,7 @@
     
     .plugin-btn {
         position: absolute;
-        top: 70px;
+        top: 80px;
         left: 130px;
         font-size: 1.7rem;
         color: #1569df;
@@ -14796,6 +14939,13 @@
     .plugin-btn:focus {
         background-color: transparent;
         outline: none;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 67px;
+        left: 162px;
+        font-weight: 600;
     }
     
     .plugin-price   {
@@ -15011,6 +15161,13 @@
         top: 25rem;
         left: 25rem;
     }
+
+    .course-market-duration {
+        font-size: 1rem;
+        position: absolute;
+        top: 430px;
+        left: 425px;
+    }
     
     .card-body .course-star-icon    {
         font-size: 1.3rem;
@@ -15092,7 +15249,7 @@
 
     .plugin-btn-icon {
         position: absolute;
-        top: 102px;
+        top: 112px;
         left: 250px;
         padding: 10px 50px;
         font-size: 1.6rem;
@@ -15101,13 +15258,20 @@
     
     .plugin-btn {
         position: absolute;
-        top: 90px;
+        top: 100px;
         left: 320px;
         font-size: 2.5rem;
         color: #1569df;
         padding: 2px 20px;
         background-color: transparent;
         border: none;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 87px;
+        left: 385px;
+        font-weight: 600;
     }
 
     .plugin-btn:focus {
@@ -15326,6 +15490,13 @@
         top: 22rem;
         left: 20rem;
     }
+
+    .course-market-duration {
+        font-size: 1rem;
+        position: absolute;
+        top: 385px;
+        left: 350px;
+    }
     
     .card-body .course-star-icon    {
         font-size: 1.3rem;
@@ -15407,7 +15578,7 @@
 
     .plugin-btn-icon {
         position: absolute;
-        top: 90px;
+        top: 100px;
         left: 200px;
         padding: 10px 50px;
         font-size: 1.2rem;
@@ -15416,7 +15587,7 @@
     
     .plugin-btn {
         position: absolute;
-        top: 80px;
+        top: 90px;
         left: 270px;
         font-size: 2rem;
         color: #1569df;
@@ -15435,6 +15606,13 @@
         top: 40px;
         left: 250px;
         font-size: 2.5rem;
+        font-weight: 600;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 80px;
+        left: 310px;
         font-weight: 600;
     }
     
@@ -15641,6 +15819,13 @@
         top: 18.5rem;
         left: 17rem;
     }
+
+    .course-market-duration {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 330px;
+        left: 310px;
+    }
     
     .card-body .course-star-icon    {
         font-size: 1.3rem;
@@ -15740,20 +15925,16 @@
         border: none;
     }
 
-    .plugin-btn:hover {
-        position: absolute;
-        top: 70px;
-        left: 100px;
-        font-size: 1rem;
-        color: #1569df;
-        padding: 2px 20px;
-        background-color: transparent;
-        border: none;
-    }
-
     .plugin-btn:focus {
         background-color: transparent;
         outline: none;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 80px;
+        left: 250px;
+        font-weight: 600;
     }
     
     .plugin-price   {
@@ -15968,6 +16149,13 @@
         top: 16.5rem;
         left: 15rem;
     }
+
+    .course-market-duration {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 300px;
+        left: 270px;
+    }
     
     .card-body .course-star-icon    {
         font-size: 1rem;
@@ -16050,7 +16238,7 @@
     .plugin-btn-icon {
         position: absolute;
         top: 98px;
-        left: 130px;
+        left: 150px;
         padding: 10px 50px;
         font-size: 1rem;
         
@@ -16059,7 +16247,7 @@
     .plugin-btn {
         position: absolute;
         top: 90px;
-        left: 190px;
+        left: 200px;
         font-size: 1.7rem;
         color: #1569df;
         padding: 2px 20px;
@@ -16067,20 +16255,17 @@
         border: none;
     }
 
-    .plugin-btn:hover {
-        position: absolute;
-        top: 70px;
-        left: 100px;
-        font-size: 1rem;
-        color: #1569df;
-        padding: 2px 20px;
-        background-color: transparent;
-        border: none;
-    }
 
     .plugin-btn:focus {
         background-color: transparent;
         outline: none;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 80px;
+        left: 230px;
+        font-weight: 600;
     }
     
     .plugin-price   {
@@ -16295,6 +16480,13 @@
         top: 16.2rem;
         left: 15rem;
     }
+
+    .course-market-duration {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 290px;
+        left: 260px;
+    }
     
     .card-body .course-star-icon    {
         font-size: 1rem;
@@ -16376,7 +16568,7 @@
 
     .plugin-btn-icon {
         position: absolute;
-        top: 92px;
+        top: 102px;
         left: 140px;
         padding: 10px 50px;
         font-size: 1rem;
@@ -16385,7 +16577,7 @@
     
     .plugin-btn {
         position: absolute;
-        top: 85px;
+        top: 95px;
         left: 200px;
         font-size: 1.7rem;
         color: #1569df;
@@ -16397,6 +16589,13 @@
     .plugin-btn:focus {
         background-color: transparent;
         outline: none;
+    }
+
+    .market-duration    {
+        position: absolute;
+        top: 80px;
+        left: 230px;
+        font-weight: 600;
     }
     
     .plugin-price   {
@@ -16611,6 +16810,13 @@
         top: 14.8rem;
         left: 13rem;
     }
+
+    .course-market-duration {
+        font-size: 0.8rem;
+        position: absolute;
+        top: 260px;
+        left: 215px;
+    }
     
     .card-body .course-star-icon    {
         font-size: 1rem;
@@ -16692,7 +16898,7 @@
 
     .plugin-btn-icon {
         position: absolute;
-        top: 88px;
+        top: 98px;
         left: 110px;
         padding: 10px 50px;
         font-size: 1rem;
@@ -16701,7 +16907,7 @@
     
     .plugin-btn {
         position: absolute;
-        top: 80px;
+        top: 90px;
         left: 170px;
         font-size: 1.7rem;
         color: #1569df;
@@ -16715,12 +16921,19 @@
         background-color: transparent;
         outline: none;
     }
+
+    .market-duration    {
+        position: absolute;
+        top: 75px;
+        left: 195px;
+        font-weight: 600;
+    }
     
     .plugin-price   {
         position: absolute;
         top: 40px;
-        left: 140px;
-        font-size: 2.5rem;
+        left: 150px;
+        font-size: 2.2rem;
         font-weight: 600;
     }
     

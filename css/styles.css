@@ -1019,38 +1019,56 @@ img.feature-img-one, img.feature-img-two, img.feature-img-three {
 
 /*********************************************** Registration  Page ****************************************************/
 
-.reg-left-side {
+#registration-page  {
+    background-color: #ebf4ff;
+    height: 100vh;
+    padding: 3% 7%;
+    text-align: center;
+}
+
+/* .reg-left-side {
     background-color: #ebf4ff;
     margin-top: 0rem;
     padding: 0 7%;
-}
+} */
 
 .reg-left-side .company-brand   {
-    margin-top: 5rem;
+    text-align: left;
 }
 
 form{
-    width: 90%;
-    margin-top: 15%;
+    width: 100%;
+    margin: 2% auto;
 }
 
 form h1{
     font-size: 2.3rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #2672dd;
     margin-bottom: 20px;
 }
 
 .form   {
     padding: 20px;
+    margin: auto 35%;
     height: 300px;
     display: none;
     font-weight: 500;
+    text-align: left;
 }
 
 .form .field{
     padding: 10px;
     font-size: 1.2rem;
+}
+
+.field-img  {
+    width: 20%;
+    margin: 3rem 10rem;
+}
+
+.congrats-title {
+    font-size: 1.8rem;
 }
 
 .field input{
@@ -1068,8 +1086,8 @@ form h1{
 .eye-icon1 {
     color: #bbb;
     position: absolute;
-    top: 49%;
-    right: 230px;
+    top: 46.5%;
+    right: 760px;
     font-size: 1rem;
     cursor: pointer;
 }
@@ -1077,8 +1095,8 @@ form h1{
 .eye-icon2 {
     color: #bbb;
     position: absolute;
-    top: 55.5%;
-    right: 230px;
+    top: 53%;
+    right: 760px;
     font-size: 1rem;
     cursor: pointer;
 }
@@ -1096,6 +1114,8 @@ form h1{
 
 .form-btn   {
     display: flex;
+    justify-content: left;
+    margin: auto 35%;
 }
 
 .form-btn .btn {
@@ -1275,6 +1295,13 @@ li.market-link a{
     left: 255px;
 }
 
+.course-market-duration {
+    font-size: 1rem;
+    position: absolute;
+    top: 350px;
+    left: 300px;
+}
+
 .card-body .course-star-icon    {
     font-size: 1.3rem;
     color: #e48705;
@@ -1376,8 +1403,15 @@ li.market-link a{
 .plugin-price   {
     position: absolute;
     top: 40px;
-    left: 200px;
+    left: 180px;
     font-weight: 500;
+}
+
+.market-duration    {
+    position: absolute;
+    top: 55px;
+    left: 320px;
+    font-weight: 600;
 }
 
 .plugin-star-icon   {
